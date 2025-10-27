@@ -30,14 +30,14 @@ if DEBUG:
     ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 else:
     ALLOWED_HOSTS = [
-        'maineblanc-project.onrender.com',
+        'maineblanc-project-dp.onrender.com',
         '.onrender.com',
         ]
     
 if DEBUG:
     SITE_URL = config('SITE_URL', default='http://127.0.0.1:8000')
 else:
-    SITE_URL = config('SITE_URL', default='https://maineblanc-project.onrender.com')
+    SITE_URL = config('SITE_URL', default='https://maineblanc-project-dp.onrender.com')
 
 # ============================================
 # SESSION
