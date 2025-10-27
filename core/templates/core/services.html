@@ -1,0 +1,179 @@
+{% extends "core/base.html" %}
+
+{% load static i18n custom_filters %}
+
+{% block title %}{% trans "Services | Camping Le Maine Blanc" %}{% endblock %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'css/services.css' %}" />
+{% endblock %}
+
+{% block content %}
+<section class="container py-5" role="region" aria-labelledby="services-title">
+    <div class="container-title text-center">
+        <img src="{% static 'pictures/peindre.png' %}" alt="" loading="lazy" class="img-deco-left"/>
+        <h1 id="services-title" class="title-services">{% trans "Nos Services" %}</h1>
+        <img src="{% static 'pictures/peindre.png' %}" alt="" loading="lazy" class="img-deco-right"/>
+    </div>
+
+  <p class="text-center mb-5">{% trans "Confort, détente et convivialité au cœur de votre séjour"%}</p>
+
+  <div class="row g-4">
+    <!-- Swimming Pool -->
+    <div class="col-lg-4 col-md-6 col-12">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="card-title text-center">
+            <h2 class="card-title">{% trans "Piscine" %}</h2>
+            <img src="{% static 'pictures/piscine.png' %}" alt="{% trans "Piscine" %}" loading="lazy" class=" logo-services img-fluid mb-3">
+          </div>
+          <p class="card-text">{% trans "Ouverte en haute saison, de mi-juin à mi-septembre, notre piscine extérieure vous accueille tous les jours de" %} {{ swimming_info.pool_opening_start|format_time_by_locale }} {% trans "à" %} {{ swimming_info.pool_opening_end|format_time_by_locale }} {% trans "pour un moment de fraîcheur et de détente." %}</p>
+          <p class="card-text">{% trans "Non couverte et non chauffée, elle est idéale pour se rafraîchir durant les belles journées d'été." %}</p>
+          <div class="info">
+            <img src="{% static 'pictures/attention.png' %}" alt="{% trans "Attention" %}" loading="lazy" class="logo-services-info">
+            <p class="card-text"><strong>{% trans "Attention : la baignade n'est pas surveillée." %}</strong> {% trans "Les enfants doivent être accompagnés et rester sous la vigilance des parents." %}</p>
+          </div>
+          <div class="info">
+            <img src="{% static 'pictures/cadenas.png' %}" alt="{% trans "Cadenas" %}" loading="lazy" class="logo-services-info">
+            <p class="card-text"><strong>{% trans "Piscine privée" %}</strong> {% trans "réservée exclusivement à la clientèle du camping." %}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Restoration -->
+    <div class="col-lg-4 col-md-6 col-12">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="card-title text-center">
+            <h2 class="card-title">{% trans "Restauration" %}</h2>
+            <img src="{% static 'pictures/food-restaurant.png' %}" alt="{% trans "Logo Restauration" %}" loading="lazy" class="logo-services img-fluid mb-3">
+          </div>
+
+          <p class="card-text-opening">
+            <strong>{% trans "Ouverture :" %}</strong> {% trans "Le service pain, viennoiseries et l’épicerie sont ouverts toute l’année." %}
+          </p>
+          
+          <div class="info">
+            <img src="{% static 'pictures/croissant.png' %}" alt="{% trans "Image Croissant" %}" loading="lazy" class="logo-services-info">
+            <p class="card-text-title">{% trans "Pain frais et viennoiseries chaque matin entre" %} {{ food_info.bread_hours_start|format_time_by_locale }} {% trans "et" %} {{ food_info.bread_hours_end|format_time_by_locale }} : </p>
+          </div>
+          <p class="card-text">{% trans "Pensez à commander la veille avant" %} {{ food_info.bread_hours_reservations|format_time_by_locale }} {% trans "à l'accueil, auprès d'Isabelle." %}</p>
+
+          <div class="info">
+            <img src="{% static 'pictures/caddie.png' %}" alt="{% trans "Image Caddie" %}" loading="lazy" class="logo-services-info">
+            <p class="card-text-title">{% trans "Epicerie : "%}</p>
+          </div>
+          <p class="card-text">{% trans "Produits salés, sucrés, d'entretien... L'épicerie du camping est toujours là pour vous sauver la mise !" %}</p>
+
+          <p class="card-text-opening">
+            <strong>{% trans "En pleine saison (de juin à septembre) :" %}</strong> {% trans "le bar et les food trucks vous accueillent pour des moments gourmands et conviviaux." %}
+          </p>
+
+          <div class="info">
+            <img src="{% static 'pictures/bar.png' %}" alt="{% trans "Image Bar" %}" loading="lazy" class="logo-services-info">
+            <p class="card-text-title">{% trans "Bar ouvert de" %} {{ food_info.bar_hours_start|format_time_by_locale }} {% trans "à" %} {{ food_info.bar_hours_end|format_time_by_locale }} : </p>
+          </div>
+          <p class="card-text">{% trans "Un lieu idéal pour boire un verre, savourer une glace et profiter de l’ambiance du camping." %}</p>
+
+          <div class="info">
+            <img src="{% static 'pictures/camion.png' %}" alt="{% trans "Image Camion Food Truck" %}" loading="lazy" class="logo-services-info">
+            <p class="card-text-title">{% trans "Food trucks en soirée pour tous les goûts :"%}</p>
+          </div>
+          <ul class="list-unstyled">
+            <li><span class="list-title">{% trans "Burger" %}</span> : {% trans "tous les soirs sauf le" %} {{ food_info.burger_food_days }}, {% trans "de" %} {{ food_info.burger_food_hours_start|format_time_by_locale }} {% trans "à" %} {{ food_info.burger_food_hours_end|format_time_by_locale }} </li>
+            <li><span class="list-title">{% trans "Pizza" %}</span> : {% trans "uniquement le" %} {{ food_info.pizza_food_days }} {% trans "soir" %}, {% trans "mêmes horaires." %} </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Laundry -->
+    <div class="col-lg-4 col-md-6 col-12">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="card-title text-center">
+            <h2 class="card-title">{% trans "Laverie" %}</h2>
+            <img src="{% static 'pictures/machine.png' %}" alt="{% trans "Image Machine à laver" %}" loading="lazy" class="logo-services img-fluid mb-3">
+          </div>
+          <p class="card-text-title pb-2">{% trans "Du linge à faire ?" %}</p>
+          <p class="card-text">{% trans "Pas de panique, même en vacances, on a pensé à tout :" %}</p>
+          <ul>
+            <li>{% trans "Une machine à laver pour" %} {{ laundry_info.washing_machine_price }}€</li>
+            <li>{% trans "Un sèche-linge pour" %} {{ laundry_info.dryer_price }}€ {% trans "les 20 minutes" %}</li>
+            <li>{% trans "Des lavabos pour les adeptes du lavage à la main (ou pour les chaussettes en mission spéciale)" %}</li>
+          </ul>
+          <p class="card-text"><strong>{% trans "Les jetons sont en vente à l'accueil." %}</strong>.</p>
+          <p class="card-text">{% trans "Pensez à votre lessive... ou passez à l'épicerie, on en vend aussi !" %}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pets -->
+    <div class="col-lg-4 col-md-6 col-12">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="card-title text-center">
+            <h2 class="card-title">{% trans "Animaux bienvenus" %}</h2>
+            <img src="{% static 'pictures/animaux.png' %}" alt="{% trans "Image Chien et Chat" %}" loading="lazy" class="logo-services img-fluid mb-3">
+          </div>
+          <p class="card-text">({% trans "sauf catégories 1 & 2, désolés les toutous costauds" %}
+            <img src="{% static 'pictures/chien.png' %}" alt="{% trans "Image d'un chien musclé" %}" loading="lazy" class="logo-services-info">)
+          </p>   
+          <p class="card-text"><strong>{% trans "Carnet de vaccination :" %}</strong>
+            {% trans "Il doit être présenté à l’arrivée et à jour — une simple formalité pour garantir le bien-être de tous nos compagnons à quatre pattes !" %}
+          </p>                
+          <p class="card-text"><strong>{% trans "La laisse ?" %}</strong> {% trans "Oui, même pour une petite balade, dans le camping ou juste devant la tente !" %}</p>
+          <p class="card-text"><strong>{% trans "Un petit besoin ?" %}</strong> {% trans "On ramasse, c'est plus sympa pour tout le monde." %}</p>
+          <div class="info">
+            <img src="{% static 'pictures/interdit.png' %}" alt="{% trans "Panneau interdit" %}" loading="lazy" class="logo-services-info">
+            <p class="card-text"><strong>{% trans "Les sanitaires" %}</strong> {% trans "c'est réservé aux humains !"%}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WiFi -->
+    <div class="col-lg-4 col-md-6 col-12">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="card-title text-center">
+            <h2 class="card-title">{% trans "Wi-Fi gratuit" %}</h2>
+            <img src="{% static 'pictures/wifi.png' %}" alt="{% trans "Logo Wi-Fi" %}" loading="lazy" class="logo-services img-fluid mb-3">
+          </div>
+          <p class="card-text-title-wifi">{% trans "Besoin de rester connecté ?" %}</p>
+          <p class="card-text">{% trans "Le wifi est gratuit sur le camping !" %}</p>
+          <p class="card-text">{% trans "(Pensez à passer à l'accueil pour les conditions d'accès.)" %}</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Payments -->
+    <div class="col-lg-4 col-md-6 col-12">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="card-title text-center">
+            <h2 class="card-title">{% trans "Paiements sécurisés" %}</h2>
+            <img src="{% static 'pictures/paiements.png' %}" alt="{% trans "Logo Terminal Paiements" %}" loading="lazy" class="logo-services img-fluid mb-3">
+          </div>
+          <p class="card-text-title-pay">{% trans "Pour régler votre séjour, plusieurs options s'offrent à vous à l'arrivée : " %}</p>
+          <ul>
+              <li>{% trans "American Express" %}</li>
+              <li>{% trans "Espèces" %}</li>
+              <li>{% trans "Maestro" %}</li>
+              <li>{% trans "Mastercard" %}</li>
+              <li>{% trans "Visa" %}</li>
+              <li>{% trans "Chèques vacances (ANCV)" %}</li>
+              <li>{% trans "Virement" %}</li>
+          </ul>
+          <p class="card-text">{% trans "La carte bancaire est acceptée à partir de 8€." %}</p>
+          <p class="card-text-pay">{% trans "Petit rappel : par mesure de sécurité, nous ne prenons plus les chèques." %}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

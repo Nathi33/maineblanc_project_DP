@@ -1,0 +1,2567 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-13 11:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\bookings\forms.py:25 .\bookings\models.py:253 .\bookings\views.py:122
+#: .\bookings\views.py:287 .\core\templates\core\infos.html:382
+#: .\reservations\forms.py:80
+msgid "Tente"
+msgstr "Tent"
+
+#: .\bookings\forms.py:26 .\bookings\models.py:254 .\bookings\views.py:123
+#: .\bookings\views.py:288
+msgid "Voiture Tente"
+msgstr "Car Tent"
+
+#: .\bookings\forms.py:27 .\bookings\models.py:255 .\bookings\views.py:124
+#: .\bookings\views.py:289 .\core\templates\core\infos.html:380
+#: .\reservations\forms.py:82
+msgid "Caravane"
+msgstr "Caravan"
+
+#: .\bookings\forms.py:28 .\bookings\models.py:256 .\bookings\views.py:125
+#: .\bookings\views.py:290
+msgid "Fourgon"
+msgstr "Converted Van"
+
+#: .\bookings\forms.py:29 .\bookings\models.py:257 .\bookings\views.py:126
+#: .\bookings\views.py:291 .\reservations\forms.py:84
+msgid "Van"
+msgstr "Van"
+
+#: .\bookings\forms.py:30 .\bookings\models.py:258 .\bookings\views.py:127
+#: .\bookings\views.py:292 .\core\templates\core\infos.html:50
+#: .\reservations\forms.py:85
+msgid "Camping-car"
+msgstr "Motorhome"
+
+#: .\bookings\forms.py:43 .\bookings\models.py:262
+#: .\bookings\templates\bookings\booking_confirm.html:90
+#: .\bookings\templates\bookings\booking_summary.html:38
+#: .\bookings\views.py:284 .\core\templates\core\infos.html:112
+#: .\core\templates\core\infos.html:162 .\core\templates\core\infos.html:273
+#: .\reservations\forms.py:159
+#: .\reservations\templates\reservations\email_admin.html:110
+msgid "Avec électricité"
+msgstr "With Electricity"
+
+#: .\bookings\forms.py:44 .\bookings\models.py:263
+#: .\bookings\templates\bookings\booking_confirm.html:92
+#: .\bookings\templates\bookings\booking_summary.html:43
+#: .\bookings\views.py:284 .\core\templates\core\infos.html:118
+#: .\core\templates\core\infos.html:168 .\core\templates\core\infos.html:279
+#: .\reservations\forms.py:160
+#: .\reservations\templates\reservations\email_admin.html:110
+msgid "Sans électricité"
+msgstr "Without Electricity"
+
+#: .\bookings\forms.py:48
+msgid "--- Choisissez ---"
+msgstr "--- Choose ---"
+
+#: .\bookings\forms.py:50
+#: .\bookings\templates\bookings\booking_summary.html:20
+msgid "Type d'emplacement"
+msgstr "Type of pitch"
+
+#: .\bookings\forms.py:56 .\reservations\forms.py:58
+msgid "Date d'arrivée"
+msgstr "Arrival Date"
+
+#: .\bookings\forms.py:62 .\reservations\forms.py:68
+msgid "Date de départ"
+msgstr "Departure Date"
+
+#: .\bookings\forms.py:68
+#: .\bookings\templates\bookings\booking_confirm.html:56
+#: .\bookings\templates\bookings\booking_summary.html:31
+#: .\bookings\templates\emails\admin_booking.html:116
+#: .\bookings\templates\emails\client_booking.html:110
+#: .\reservations\forms.py:122
+#: .\reservations\templates\reservations\email_admin.html:118
+#: .\reservations\templates\reservations\reservation_request.html:141
+msgid "Adultes"
+msgstr "Adults"
+
+#: .\bookings\forms.py:75
+#: .\bookings\templates\bookings\booking_confirm.html:87
+#: .\bookings\templates\bookings\booking_summary.html:36
+#: .\bookings\templates\emails\admin_booking.html:107
+#: .\bookings\templates\emails\client_booking.html:101
+#: .\reservations\forms.py:163
+#: .\reservations\templates\reservations\email_admin.html:109
+#: .\reservations\templates\reservations\reservation_request.html:179
+msgid "Électricité"
+msgstr "Electricity"
+
+#: .\bookings\forms.py:88 .\reservations\forms.py:113
+msgid "Longueur du véhicule (m)"
+msgstr "Vehicle length (m)"
+
+#: .\bookings\forms.py:89 .\reservations\forms.py:104
+msgid "Largeur de la tente (m)"
+msgstr "Tent width (m)"
+
+#: .\bookings\forms.py:90 .\reservations\forms.py:95
+msgid "Longueur de la tente (m)"
+msgstr "Tent length (m)"
+
+#: .\bookings\forms.py:91
+#: .\reservations\templates\reservations\reservation_request.html:150
+msgid "Enfants +8 ans"
+msgstr "Child +8 years"
+
+#: .\bookings\forms.py:92
+#: .\reservations\templates\reservations\reservation_request.html:159
+msgid "Enfants -8 ans"
+msgstr "Child -8 years"
+
+#: .\bookings\forms.py:93
+msgid "Animaux (2 max)"
+msgstr "Pets (2 max)"
+
+#: .\bookings\forms.py:94 .\reservations\forms.py:169
+#: .\reservations\templates\reservations\reservation_request.html:192
+msgid "Longueur du câble électrique (m)"
+msgstr "Length of electrical cable (m)"
+
+#: .\bookings\forms.py:122
+msgid "Les dates de réservations sont requises."
+msgstr "Booking dates are required."
+
+#: .\bookings\forms.py:126 .\reservations\forms.py:205
+msgid "La date d'arrivée ne peut pas être antérieure à aujourd'hui."
+msgstr "The arrival date cannot be earlier than today."
+
+#: .\bookings\forms.py:128 .\reservations\forms.py:208
+msgid "La date de départ doit être postérieure à la date d'arrivée."
+msgstr "The departure date must be later than the arrival date."
+
+#: .\bookings\forms.py:134
+msgid ""
+"La durée maximale de séjour est de 3 semaines. Pour toute demande "
+"particulière, merci de contacter directement le camping."
+msgstr ""
+"The maximum length of stay is 3 weeks. For any special requests, "
+"please contact the campsite directly."
+
+#: .\bookings\forms.py:156
+msgid "Le champ 'Type d'emplacement' est obligatoire."
+msgstr "The 'Location Type' field is required."
+
+#: .\bookings\forms.py:161
+msgid ""
+"Le champ 'Longueur du véhicule' est obligatoire pour les caravanes et "
+"camping-cars."
+msgstr "The 'Vehicle Length' field is required for caravans and motorhomes."
+
+#: .\bookings\forms.py:165
+msgid "Le champ 'Largeur de la tente' est obligatoire pour les tentes."
+msgstr "The 'Tent Width' field is required for tents."
+
+#: .\bookings\forms.py:167
+msgid "Le champ 'Longueur de la tente' est obligatoire pour les tentes."
+msgstr "The 'Tent Length' field is required for tents."
+
+#: .\bookings\forms.py:172
+msgid ""
+"Le champ 'Longueur du câble' est obligatoire si l'électricité est incluse."
+msgstr "The 'Cable Length' field is required if electricity is included."
+
+#: .\bookings\forms.py:182
+msgid ""
+"Le nombre maximum de personnes (adultes et enfants) ne peut pas dépasser 6. "
+"Pour toute demande particulière, merci de contacter directement le camping."
+msgstr ""
+
+#: .\bookings\forms.py:200
+#: .\bookings\templates\bookings\booking_confirm.html:44
+#: .\bookings\templates\emails\admin_booking.html:87
+#: .\reservations\forms.py:23
+#: .\reservations\templates\reservations\email_admin.html:87
+msgid "Nom"
+msgstr "Name"
+
+#: .\bookings\forms.py:205
+#: .\bookings\templates\bookings\booking_confirm.html:45
+#: .\reservations\forms.py:27
+msgid "Prénom"
+msgstr "First Name"
+
+#: .\bookings\forms.py:210 .\bookings\templates\emails\admin_booking.html:88
+#: .\reservations\forms.py:31
+#: .\reservations\templates\reservations\email_admin.html:88
+msgid "Adresse"
+msgstr "Address"
+
+#: .\bookings\forms.py:215 .\reservations\forms.py:35
+msgid "Code postal"
+msgstr "Postal Code"
+
+#: .\bookings\forms.py:220 .\reservations\forms.py:39
+msgid "Ville"
+msgstr "City"
+
+#: .\bookings\forms.py:225
+#: .\bookings\templates\bookings\booking_confirm.html:47
+#: .\bookings\templates\emails\admin_booking.html:89
+#: .\reservations\forms.py:43
+#: .\reservations\templates\reservations\email_admin.html:89
+msgid "Téléphone"
+msgstr "Phone"
+
+#: .\bookings\forms.py:230
+#: .\bookings\templates\bookings\booking_confirm.html:46
+msgid "Adresse mail"
+msgstr "Email Address"
+
+#: .\bookings\forms.py:260
+msgid "Enter a valid phone number."
+msgstr "Enter a valid phone number."
+
+#: .\bookings\models.py:455
+msgid "Les dates de réservations sont requises pour vérifier la disponibilité."
+msgstr "Dates are required to check availability."
+
+#: .\bookings\models.py:462
+#, python-format
+msgid "La capacité pour %(type)s n'est pas définie."
+msgstr "The capacity for %(type)s is not defined."
+
+#: .\bookings\models.py:472
+msgid ""
+"Plus de places disponibles pour ces dates. Veuillez choisir d'autres dates "
+"ou contacter le camping."
+msgstr ""
+"Not enough available spots for these dates. Please choose other dates or "
+"contact the campsite."
+
+#: .\bookings\templates\bookings\booking_confirm.html:5
+msgid "Réservation réussie | Camping Le Maine Blanc"
+msgstr "Reservation successful | Camping Le Maine Blanc"
+
+#: .\bookings\templates\bookings\booking_confirm.html:19
+msgid "Réservation confirmée"
+msgstr "Confirmed Reservation"
+
+#: .\bookings\templates\bookings\booking_confirm.html:34
+msgid "Calendrier"
+msgstr "Calendar"
+
+#: .\bookings\templates\bookings\booking_confirm.html:35
+#: .\bookings\templates\bookings\booking_summary.html:30
+#: .\bookings\templates\emails\admin_booking.html:94
+#: .\bookings\templates\emails\client_booking.html:88
+#: .\reservations\templates\reservations\email_admin.html:94
+msgid "Dates"
+msgstr "Dates"
+
+#: .\bookings\templates\bookings\booking_confirm.html:41
+#: .\bookings\templates\bookings\booking_details.html:17
+#: .\reservations\templates\reservations\reservation_request.html:57
+msgid "Vos coordonnées"
+msgstr "Your Contact Information"
+
+#: .\bookings\templates\bookings\booking_confirm.html:53
+#: .\bookings\templates\emails\admin_booking.html:115
+#: .\bookings\templates\emails\client_booking.html:109
+#: .\reservations\templates\reservations\email_admin.html:117
+msgid "Nombre de personnes"
+msgstr "Number of People"
+
+#: .\bookings\templates\bookings\booking_confirm.html:57
+#: .\bookings\templates\bookings\booking_summary.html:32
+msgid "Enfants > 8 ans"
+msgstr "Child > 8 years"
+
+#: .\bookings\templates\bookings\booking_confirm.html:58
+#: .\bookings\templates\bookings\booking_summary.html:33
+msgid "Enfants < 8 ans"
+msgstr "Child < 8 years"
+
+#: .\bookings\templates\bookings\booking_confirm.html:59
+#: .\bookings\templates\bookings\booking_summary.html:34
+#: .\bookings\templates\emails\admin_booking.html:119
+#: .\bookings\templates\emails\client_booking.html:113
+#: .\reservations\forms.py:149
+#: .\reservations\templates\reservations\email_admin.html:121
+#: .\reservations\templates\reservations\reservation_request.html:168
+msgid "Animaux"
+msgstr "Pets"
+
+#: .\bookings\templates\bookings\booking_confirm.html:65
+msgid "Emplacement / Véhicule"
+msgstr "Pitch / Vehicle"
+
+#: .\bookings\templates\bookings\booking_confirm.html:69
+msgid "Type d’emplacement"
+msgstr "Type of pitch"
+
+#: .\bookings\templates\bookings\booking_confirm.html:74
+#: .\reservations\templates\reservations\email_admin.html:102
+msgid "Dimensions de la tente"
+msgstr "Tent dimensions"
+
+#: .\bookings\templates\bookings\booking_confirm.html:81
+msgid "Longueur du véhicule"
+msgstr "Vehicle length"
+
+#: .\bookings\templates\bookings\booking_confirm.html:99
+msgid "Câble électrique"
+msgstr "Length of electrical cable"
+
+#: .\bookings\templates\bookings\booking_confirm.html:108
+#: .\bookings\templates\emails\admin_booking.html:123
+#: .\bookings\templates\emails\client_booking.html:117
+msgid "Total à payer"
+msgstr "Total to pay"
+
+#: .\bookings\templates\bookings\booking_confirm.html:112
+#: .\bookings\templates\emails\admin_booking.html:124
+#: .\bookings\templates\emails\client_booking.html:118
+msgid "Acompte versé"
+msgstr "Deposit Paid"
+
+#: .\bookings\templates\bookings\booking_confirm.html:116
+msgid "Solde restant à payer le jour de l'arrivée"
+msgstr "Remaining balance to be paid on the day of arrival"
+
+#: .\bookings\templates\bookings\booking_confirm.html:123
+msgid "Faire une nouvelle réservation"
+msgstr "Make a new reservation"
+
+#: .\bookings\templates\bookings\booking_details.html:5
+msgid "Détails de la réservation | Camping Le Maine Blanc"
+msgstr "Reservation Details | Camping Le Maine Blanc"
+
+#: .\bookings\templates\bookings\booking_details.html:23
+#: .\bookings\templates\bookings\booking_form.html:28
+#: .\core\templates\core\services.html:33
+#: .\reservations\templates\reservations\reservation_request.html:28
+msgid "Attention"
+msgstr "Attention"
+
+#: .\bookings\templates\bookings\booking_details.html:23
+#: .\bookings\templates\bookings\booking_form.html:28
+#: .\reservations\templates\reservations\reservation_request.html:28
+msgid "Veuillez corriger les erreurs suivantes :"
+msgstr "Please correct the following errors :"
+
+#: .\bookings\templates\bookings\booking_details.html:87
+#: .\bookings\templates\bookings\booking_summary.html:55
+msgid "Confirmer la réservation"
+msgstr "Confirm Reservation"
+
+#: .\bookings\templates\bookings\booking_details.html:92
+#: .\bookings\templates\bookings\booking_form.html:110
+#: .\reservations\templates\reservations\reservation_request.html:217
+msgid "Champs obligatoires"
+msgstr "Required Fields"
+
+#: .\bookings\templates\bookings\booking_form.html:5
+msgid "Réservations | Camping Le Maine Blanc"
+msgstr "Reservations | Camping Le Maine Blanc"
+
+#: .\bookings\templates\bookings\booking_form.html:15
+msgid "Réserver un emplacement"
+msgstr "Book a pitch"
+
+#: .\bookings\templates\bookings\booking_form.html:20
+msgid ""
+"Pour les réservations ouvriers, merci de contacter directement le camping au "
+msgstr "For worker reservations, please contact the campsite directly at "
+
+#: .\bookings\templates\bookings\booking_form.html:22
+msgid "ou via notre"
+msgstr "or via our"
+
+#: .\bookings\templates\bookings\booking_form.html:47
+msgid "Emplacements"
+msgstr "Pitches"
+
+#: .\bookings\templates\bookings\booking_form.html:65
+msgid "Dates du séjour"
+msgstr "Stay Dates"
+
+#: .\bookings\templates\bookings\booking_form.html:74
+#: .\reservations\templates\reservations\reservation_request.html:138
+msgid "Nombre d'occupants"
+msgstr "Number of Occupants"
+
+#: .\bookings\templates\bookings\booking_form.html:85
+#: .\core\templates\core\infos.html:111 .\core\templates\core\infos.html:161
+#: .\core\templates\core\infos.html:272
+msgid "Electricité"
+msgstr "Electricity"
+
+#: .\bookings\templates\bookings\booking_form.html:107
+msgid "Réserver"
+msgstr "Book"
+
+#: .\bookings\templates\bookings\booking_summary.html:5
+msgid "Infos de la réservation | Camping Le Maine Blanc"
+msgstr "Reservation Information | Camping Le Maine Blanc"
+
+#: .\bookings\templates\bookings\booking_summary.html:15
+msgid "Résumé de votre réservation"
+msgstr "Reservation Summary"
+
+#: .\bookings\templates\bookings\booking_summary.html:24
+msgid "dimensions de la tente"
+msgstr "Tent dimensions"
+
+#: .\bookings\templates\bookings\booking_summary.html:26
+msgid "longueur du véhicule"
+msgstr "Vehicle length"
+
+#: .\bookings\templates\bookings\booking_summary.html:40
+msgid "longueur du câble"
+msgstr "Length of electrical cable"
+
+#: .\bookings\templates\bookings\booking_summary.html:47
+msgid "Prix total"
+msgstr "Total Price"
+
+#: .\bookings\templates\bookings\booking_summary.html:48
+#, python-format
+msgid "Acompte de 15%% à verser"
+msgstr "Deposit of 15%% to be paid"
+
+#: .\bookings\templates\bookings\booking_summary.html:49
+msgid "Non remboursable"
+msgstr "Non-refundable"
+
+#: .\bookings\templates\bookings\booking_summary.html:50
+msgid "Solde restant à payer à l'accueil lors de l'arrivée"
+msgstr "Remaining balance to be paid at the reception upon arrival"
+
+#: .\bookings\templates\bookings\booking_summary.html:54
+msgid "Modifier ma réservation"
+msgstr "Modify my reservation"
+
+#: .\bookings\templates\emails\admin_booking.html:6
+#: .\bookings\templates\emails\admin_booking.html:82
+msgid "Nouvelle réservation"
+msgstr "New reservation"
+
+#: .\bookings\templates\emails\admin_booking.html:83
+msgid "Une nouvelle réservation a été effectuée par"
+msgstr "A new reservation has been made by"
+
+#: .\bookings\templates\emails\admin_booking.html:86
+#: .\reservations\templates\reservations\email_admin.html:86
+msgid "Informations du client"
+msgstr "Information of the client"
+
+#: .\bookings\templates\emails\admin_booking.html:90
+#: .\reservations\templates\reservations\email_admin.html:90
+msgid "Email"
+msgstr "Email"
+
+#: .\bookings\templates\emails\admin_booking.html:95
+#: .\bookings\templates\emails\client_booking.html:89
+#: .\reservations\templates\reservations\email_admin.html:95
+msgid "Du"
+msgstr "From"
+
+#: .\bookings\templates\emails\admin_booking.html:95
+#: .\bookings\templates\emails\client_booking.html:89
+#: .\core\templates\core\infos.html:100 .\core\templates\core\infos.html:101
+#: .\core\templates\core\infos.html:102 .\core\templates\core\infos.html:442
+#: .\core\templates\core\infos.html:443 .\core\templates\core\infos.html:444
+#: .\reservations\templates\reservations\email_admin.html:95
+msgid "au"
+msgstr "to"
+
+#: .\bookings\templates\emails\admin_booking.html:99
+#: .\bookings\templates\emails\client_booking.html:93
+#: .\core\templates\core\infos.html:99
+#: .\reservations\templates\reservations\email_admin.html:99
+msgid "Type d’hébergement"
+msgstr "Accommodation Type"
+
+#: .\bookings\templates\emails\admin_booking.html:117
+#: .\bookings\templates\emails\client_booking.html:111
+#: .\reservations\templates\reservations\email_admin.html:119
+msgid "Enfants (+8ans)"
+msgstr "Child (+8 years)"
+
+#: .\bookings\templates\emails\admin_booking.html:118
+#: .\bookings\templates\emails\client_booking.html:112
+#: .\reservations\templates\reservations\email_admin.html:120
+msgid "Enfants (-8ans)"
+msgstr "Child (-8 years)"
+
+#: .\bookings\templates\emails\admin_booking.html:125
+#: .\bookings\templates\emails\client_booking.html:119
+msgid "Solde restant"
+msgstr "Remaining balance"
+
+#: .\bookings\templates\emails\admin_booking.html:129
+#: .\bookings\templates\emails\client_booking.html:131
+msgid "Pour plus d'informations, consultez notre site : "
+msgstr ""
+
+#: .\bookings\templates\emails\client_booking.html:6
+msgid "Confirmation de réservation"
+msgstr "Booking Confirmation"
+
+#: .\bookings\templates\emails\client_booking.html:82
+msgid "Confirmation de votre réservation"
+msgstr "Booking Confirmation"
+
+#: .\bookings\templates\emails\client_booking.html:84
+msgid "Bonjour"
+msgstr "Hello"
+
+#: .\bookings\templates\emails\client_booking.html:85
+msgid ""
+"Merci pour votre réservation au Camping Le Maine Blanc ! Voici le "
+"récapitulatif :"
+msgstr ""
+"Thank you for your reservation at Camping Le Maine Blanc! Here is the "
+"summary:"
+
+#: .\bookings\templates\emails\client_booking.html:122
+msgid "Nous avons hâte de vous accueillir !"
+msgstr "We look forward to welcoming you!"
+
+#: .\bookings\templates\emails\client_booking.html:123
+#: .\core\templates\core\base.html:142 .\core\templates\core\legal.html:21
+#: .\core\templates\core\privacy-policy.html:73
+#: .\core\templates\core\privacy-policy.html:78
+#: .\core\templates\core\privacy-policy.html:102
+#: .\core\templates\core\privacy-policy.html:108
+msgid "Camping Le Maine Blanc"
+msgstr "Camping Le Maine Blanc"
+
+#: .\bookings\templates\emails\client_booking.html:126
+msgid "Annulation par le camping"
+msgstr "Cancellation by the campsite"
+
+#: .\bookings\templates\emails\client_booking.html:127
+msgid ""
+"Les propriétaires se réservent le droit d'annuler une réservation si "
+"nécessaire. En cas d'annulation, vous serez informé(e) dans les plus brefs "
+"délais."
+msgstr ""
+"The owners reserve the right to cancel a reservation if necessary. In case "
+"of cancellation, you will be informed as soon as possible."
+
+#: .\bookings\views.py:223
+msgid "Impossible de traiter le paiement pour le moment. Veuillez réessayer."
+msgstr "Unable to process payment at this time. Please try again."
+
+#: .\bookings\views.py:253
+msgid ""
+"Aucune donnée de réservation trouvée. Veuillez recommencer le processus de "
+"réservation."
+msgstr "No booking data found. Please restart the booking process."
+
+#: .\bookings\views.py:258
+msgid ""
+"Les informations de contact sont incomplètes. Veuillez compléter vos "
+"coordonnées."
+msgstr ""
+"Contact information is incomplete. Please complete your contact details."
+
+#: .\bookings\views.py:320 .\bookings\views.py:364
+#, python-brace-format
+msgid "Dimensions tente : {length} m x {width} m"
+msgstr "Tent dimensions : {length} m x {width} m"
+
+#: .\bookings\views.py:324 .\bookings\views.py:368
+#, python-brace-format
+msgid "Longueur véhicule : {length} m"
+msgstr "Vehicle length : {length} m"
+
+#: .\bookings\views.py:328 .\bookings\views.py:372
+#, python-brace-format
+msgid "Longueur câble : {length} m"
+msgstr "Cable length : {length} m"
+
+#: .\bookings\views.py:332
+#, python-brace-format
+msgid "Nouvelle réservation de {booking.first_name} {booking.last_name}"
+msgstr "New reservation from {booking.first_name} {booking.last_name}"
+
+#: .\bookings\views.py:376
+msgid "Confirmation de votre réservation - Camping Le Maine Blanc"
+msgstr "Booking Confirmation | Camping Le Maine Blanc"
+
+#: .\bookings\views.py:403
+msgid ""
+"Votre réservation est enregistrée, mais une erreur est survenue lors de "
+"l'envoi des emails. Veuillez contacter l'administrateur."
+msgstr ""
+"Your booking has been recorded, but an error occurred while sending the "
+"emails. Please contact the administrator."
+
+#: .\bookings\views.py:411
+msgid ""
+"Merci ! Votre réservation a été confirmée. Un email de confirmation vous a "
+"été envoyé."
+msgstr ""
+"Thank you! Your reservation has been confirmed. A confirmation email has "
+"been sent."
+
+#: .\core\templates\core\about.html:5
+msgid "À propos | Camping Le Maine Blanc"
+msgstr "About | Camping Le Maine Blanc"
+
+#: .\core\templates\core\about.html:20 .\core\templates\core\about.html:27
+msgid "Camping le Maine Blanc"
+msgstr "Camping Le Maine Blanc"
+
+#: .\core\templates\core\about.html:28
+msgid "étoile"
+msgstr "star"
+
+#: .\core\templates\core\about.html:29
+msgid "Ouvert à l'année"
+msgstr "Open all year round"
+
+#: .\core\templates\core\about.html:31
+msgid "Envie de nature, de calme et de simplicité ?"
+msgstr "Do you want nature, peace and simplicity?"
+
+#: .\core\templates\core\about.html:32
+msgid ""
+"Bienvenue au Camping Le Maine Blanc, un petit coin de paradis niché en "
+"pleine forêt de la Gironde, à seulement 5 minutes de Saint-Christoly-de-"
+"Blaye et 40 minutes de Bordeaux, dans un cadre verdoyant et paisible. Ici, "
+"on pose ses valises au coeur de la forêt, entre chant des oiseaux, "
+"emplacements ombragés et ambiance familiale à taille humaine."
+msgstr ""
+"Welcome to Camping Le Maine Blanc, a little corner of paradise nestled inthe "
+"heart of the Gironde forest, just 5 minutes from Saint-Christoly-de-Blaye "
+"and 40 minutes from Bordeaux, in a green and peaceful setting. Here, we put "
+"down our suitcases in the heart of the forest, between birdsong, shaded "
+"pitches and a family atmosphere on a human scale."
+
+#: .\core\templates\core\about.html:33
+msgid ""
+"Notre camping est <strong>ouvert toute l'année</strong>, pour vous "
+"accueillir aussi bien lors de vos vacances d'été que pour unes escapade "
+"nature hors saison."
+msgstr ""
+"Our campsite is <strong>open all year round</strong>, to welcome you during "
+"your summer holidays as well as for a nature getaway out of season."
+
+#: .\core\templates\core\about.html:34
+msgid ""
+"Installez votre tente, caravane ou camping-car sur l'un de nos emplacements "
+"avec ou sans électricité, ou optez pour un mobil-home tout confort, idéal "
+"pour des vacances au vert sans compromis."
+msgstr ""
+"Pitch your tent, caravan or motorhome on one of our pitches with or without "
+"electricity, or opt for a comfortable mobile home, ideal for a green holiday "
+"without compromise."
+
+#: .\core\templates\core\about.html:35
+msgid ""
+"L'été, profitez de la piscine extérieure, des aires de jeux, des animaux du "
+"camping et des activités pour toute la famille. Coté papilles, food-trucks, "
+"pizzas, épicerie et bar avec terrasse vous régalent dans la bonne humeur. Et "
+"pour bien commencer la journée, pensez à commander votre pain et vos "
+"viennoiseries la veille pour les récupérer frais le lendemain matin à la "
+"réception."
+msgstr ""
+"In summer, enjoy the outdoor swimming pool, the playgrounds, the animals of "
+"the camping and activities for the whole family. On the taste buds side, "
+"food trucks, pizzas, grocery store and bar with terrace will delight you in "
+"a good mood. And to start the day off right, remember to order your bread "
+"and your pastries the day before to pick them up fresh the next morning at "
+"the reception."
+
+#: .\core\templates\core\about.html:36
+msgid ""
+"Que vous cherchiez un camping familial en Gironde, un camping nature près de "
+"Bordeaux, ou un séjour simple et authentique en Nouvelle-Aquitaine, vous "
+"êtes au bon endroit."
+msgstr ""
+"Whether you are looking for a family campsite in Gironde, a nature campsite "
+"near Bordeaux, or a simple and authentic stay in New Aquitaine, you are in "
+"the right place."
+
+#: .\core\templates\core\accommodations.html:5
+msgid "Hébergements | Camping Le Maine Blanc"
+msgstr "Accommodations | Camping Le Maine Blanc"
+
+#: .\core\templates\core\accommodations.html:15
+msgid "Nos hébergements"
+msgstr "Our Accommodations"
+
+#: .\core\templates\core\accommodations.html:24
+msgid "Photo d'un bus sur parcelle"
+msgstr "Photo of a bus on a plot"
+
+#: .\core\templates\core\accommodations.html:27
+msgid "Emplacements Tentes, Caravanes, Camping-Cars"
+msgstr "Tents, Caravans, Motorhome Pitches"
+
+#: .\core\templates\core\accommodations.html:28
+msgid ""
+"Profitez d’un séjour au plus près de la nature grâce à nos emplacements "
+"spacieux et ombragés, avec ou sans électricité, adaptés aux tentes, "
+"caravanes et camping-cars. Chaque parcelle est délimitée et située à "
+"proximité des sanitaires pour votre confort."
+msgstr ""
+"Enjoy a stay close to nature with our spacious and shaded pitches, with or "
+"without electricity, suitable for tents, caravans, and motorhomes. Each plot "
+"is clearly marked and located near the sanitary facilities for your comfort."
+
+#: .\core\templates\core\accommodations.html:29
+msgid ""
+"Réservez dès maintenant en toute simplicité et laissez-nous vous accueillir "
+"dans les meilleures conditions !"
+msgstr ""
+"Book now with ease and let us welcome you in the best possible conditions !"
+
+#: .\core\templates\core\accommodations.html:30
+msgid "Réserver maintenant"
+msgstr "Book now"
+
+#: .\core\templates\core\accommodations.html:39
+msgid "Photo d'un mobil-home"
+msgstr "Photo of a mobile home"
+
+#: .\core\templates\core\accommodations.html:42
+msgid "Location de Mobil-Homes"
+msgstr "Mobile Home Rentals"
+
+#: .\core\templates\core\accommodations.html:43
+msgid ""
+"Confort et tranquillité vous attendent dans nos mobil-homes tout équipés, "
+"idéals pour un séjour en famille ou entre amis. Chaque hébergement dispose "
+"d’un espace extérieur avec terrasse, table et chaises, pour profiter "
+"pleinement du cadre verdoyant du camping."
+msgstr ""
+"Comfort and tranquility await you in our fully equipped mobile homes, ideal "
+"for a family or friends getaway. Each accommodation has an outdoor space "
+"with a terrace, table, and chairs to fully enjoy the lush surroundings of "
+"the campsite."
+
+#: .\core\templates\core\accommodations.html:44
+msgid ""
+"À l'intérieur, vous trouverez un coin cuisine pratique avec réfrigérateur, "
+"plaques de cuisson au gaz, évier, cafetière, micro-ondes et toute la "
+"vaisselle nécessaire. La pièce principale est aménagée avec un branchement "
+"TV (télévision non fournie), une salle de douche et des toilettes. Tous nos "
+"mobil-homes sont également équipés d'une climatisation réversible afin de "
+"vous assurer confort et bien-être quelle que soit la saison."
+msgstr ""
+"Inside, you will find a practical kitchenette with refrigerator, gas hob, "
+"sink, coffee maker, microwave, and all necessary crockery. The main room is "
+"equipped with a TV connection (TV not provided), a shower room, and toilets. "
+"All our mobile homes are also equipped with reversible air conditioning to "
+"ensure your comfort and well-being in all seasons."
+
+#: .\core\templates\core\accommodations.html:45
+msgid ""
+"La réservation se fait uniquement par téléphone ou via le formulaire de "
+"contact afin de vous proposer la meilleure disponibilité."
+msgstr ""
+"Reservations can only be made by phone or via the "
+"contact form to offer you the best availability."
+
+#: .\core\templates\core\accommodations.html:46
+msgid "Contactez-nous"
+msgstr "Contact us"
+
+#: .\core\templates\core\activities.html:5
+msgid "Aux alentours | Camping Le Maine Blanc"
+msgstr "Arround | Camping Le Maine Blanc"
+
+#: .\core\templates\core\activities.html:16
+msgid "Activités aux alentours du camping"
+msgstr "Activities around the campsite"
+
+#: .\core\templates\core\activities.html:21
+msgid "Activités à 5 - 10 minutes du camping"
+msgstr "Activities 5 - 10 minutes from the campsite"
+
+#: .\core\templates\core\activities.html:27
+#: .\core\templates\core\activities.html:30
+msgid "Lac du Moulin Blanc"
+msgstr "Lake of Moulin Blanc"
+
+#: .\core\templates\core\activities.html:32
+msgid ""
+"Le domaine des Lacs du Moulin Blanc à Saint-Christoly-de-Blaye est une base "
+"de loisirs en pleine forêt, avec deux lacs : l’un dédié à la baignade "
+"surveillée et aux activités nautiques, l’autre à la pêche. On y trouve aussi "
+"des sentiers de promenade, des aires de jeux, des parcours sportifs et des "
+"espaces de pique-nique, le tout dans un cadre naturel préservé."
+msgstr ""
+"The Domaine des Lacs du Moulin Blanc in Saint-Christoly-de-Blaye is a "
+"leisure base in the heart of the forest, with two lakes: one dedicated to "
+"supervised swimming and water sports, the other to fishing. There are also "
+"walking trails, play areas, sports courses, and picnic areas, all set in a "
+"preserved natural environment."
+
+#: .\core\templates\core\activities.html:35
+#: .\core\templates\core\activities.html:52
+#: .\core\templates\core\activities.html:70
+#: .\core\templates\core\activities.html:87
+#: .\core\templates\core\activities.html:110
+#: .\core\templates\core\activities.html:127
+#: .\core\templates\core\activities.html:145
+#: .\core\templates\core\activities.html:162
+#: .\core\templates\core\activities.html:185
+#: .\core\templates\core\activities.html:203
+#: .\core\templates\core\activities.html:220
+#: .\core\templates\core\activities.html:238
+msgid "En savoir +"
+msgstr "Learn more"
+
+#: .\core\templates\core\activities.html:44
+#: .\core\templates\core\activities.html:47
+msgid "Natéa"
+msgstr "Natéa"
+
+#: .\core\templates\core\activities.html:49
+msgid ""
+"Natéa, à Saint-Savin, est un parc de loisirs de 20 hectares offrant plus de "
+"20 activités pour tous les âges, dont accrobranche, tyrolienne, paintball, "
+"lasergame et minigolf. Le site propose aussi restauration, aires de pique-"
+"nique et organisation d’événements festifs."
+msgstr ""
+"Natéa, in Saint-Savin, is a 20-hectare leisure park offering more than 20 "
+"activities for all ages, including tree climbing, zip-lining, paintball, "
+"laser tag, and mini-golf. The site also offers dining options, picnic areas, "
+"and event organization."
+
+#: .\core\templates\core\activities.html:62
+#: .\core\templates\core\activities.html:65
+msgid "Califourchon"
+msgstr "Califourchon"
+
+#: .\core\templates\core\activities.html:67
+msgid ""
+"Califourchon, c’est une ferme vivante et pleine de bonne humeur à deux pas "
+"de Saint-Savin, où petits et grands peuvent câliner les animaux, faire des "
+"balades à poney ou en calèche et s’amuser avec plein de jeux en plein air. "
+"Tout au long de l’année, l’équipe organise aussi des journées à thème dans "
+"une ambiance conviviale et familiale."
+msgstr ""
+"Califourchon is a lively and cheerful farm just steps away from Saint-Savin, "
+"where young and old can cuddle animals, take pony or carriage rides, and "
+"enjoy many outdoor games. Throughout the year, the team also organizes "
+"themed days in an inviting and family-friendly atmosphere."
+
+#: .\core\templates\core\activities.html:79
+#: .\core\templates\core\activities.html:82
+msgid "CastorWakePark"
+msgstr "CastorWakePark"
+
+#: .\core\templates\core\activities.html:84
+msgid ""
+"Le Castor Wakepark, c’est le spot parfait pour s’amuser au bord de l’eau : "
+"wakeboard, ski nautique, wakeskate, bouées tractées ou encore paddle, pédalo "
+"et kayak sont au menu. Ensuite, on se pose sur la plage aménagée avec "
+"transats, regarde les glisseurs, sirote une boisson fraîche ou grignote une "
+"glace ou des tapas sur place."
+msgstr ""
+"Le Castor Wakepark is the perfect spot for water fun: wakeboarding, water "
+"skiing, wakeskating, towed buoys, paddleboarding, pedal boating, and "
+"kayaking are all on the menu. Afterward, relax on the equipped beach with "
+"sun loungers, watch the riders, sip a refreshing drink, or snack on ice "
+"cream or tapas."
+
+#: .\core\templates\core\activities.html:96
+msgid "Activités à 20 minutes du camping"
+msgstr "Activities 20 minutes from the campsite"
+
+#: .\core\templates\core\activities.html:102
+#: .\core\templates\core\activities.html:105
+msgid "La citadelle de Blaye"
+msgstr "The Citadel of Blaye"
+
+#: .\core\templates\core\activities.html:107
+msgid ""
+"La citadelle de Blaye est un site historique classé au patrimoine mondial de "
+"l'UNESCO, offrant une vue imprenable sur l'estuaire de la Gironde. Les "
+"visiteurs peuvent explorer ses remparts, ses bastions et son musée, tout en "
+"profitant d'animations et d'événements tout au long de l'année."
+msgstr ""
+"The Citadel of Blaye is a historic site classified as a UNESCO World "
+"Heritage Site, offering stunning views of the Gironde estuary. Visitors can "
+"explore its ramparts, bastions, and museum while enjoying activities and "
+"events throughout the year."
+
+#: .\core\templates\core\activities.html:119
+#: .\core\templates\core\activities.html:122
+msgid "Terres d'oiseaux"
+msgstr "Bird Lands"
+
+#: .\core\templates\core\activities.html:124
+msgid ""
+"Terres d'oiseaux est un parc ornithologique offrant un cadre naturel "
+"préservé pour observer de nombreuses espèces d'oiseaux dans leur habitat. "
+"Les visiteurs peuvent profiter de sentiers de promenade, d'aires de pique-"
+"nique et d'activités pédagogiques tout au long de l'année."
+msgstr ""
+"Bird Lands is an ornithological park offering a preserved natural setting to "
+"observe numerous bird species in their habitat. Visitors can enjoy walking "
+"paths, picnic areas, and educational activities throughout the year."
+
+#: .\core\templates\core\activities.html:137
+#: .\core\templates\core\activities.html:140
+msgid "Grotte : Pair-non-Pair"
+msgstr "Cave: Pair-non-Pair"
+
+#: .\core\templates\core\activities.html:142
+msgid ""
+"La grotte de Pair-non-Pair est un site préhistorique remarquable. Les "
+"visiteurs peuvent y découvrir des peintures rupestres anciennes et en "
+"apprendre davantage sur la vie des hommes préhistoriques grâce à des visites "
+"guidées et des ateliers."
+msgstr ""
+"The Pair-non-Pair cave is a remarkable prehistoric site. Visitors can "
+"discover ancient rock paintings and learn more about the lives of "
+"prehistoric people through guided tours and workshops."
+
+#: .\core\templates\core\activities.html:154
+#: .\core\templates\core\activities.html:157
+msgid "Au ptit Cro Magnon"
+msgstr "At the Little Cro-Magnon"
+
+#: .\core\templates\core\activities.html:159
+msgid ""
+"Au ptit Cro Magnon est un parc de loisirs offrant une variété d'activités "
+"pour toute la famille. Les visiteurs peuvent profiter de parcours "
+"accrobranche, de balades en poney et d'ateliers pédagogiques sur la "
+"préhistoire."
+msgstr ""
+"At the Little Cro-Magnon is a leisure park offering a variety of activities "
+"for the whole family. Visitors can enjoy treetop courses, pony rides, and "
+"educational workshops on prehistory."
+
+#: .\core\templates\core\activities.html:171
+msgid "Activités à plus de 40 minutes du camping"
+msgstr "Activities more than 40 minutes from the campsite"
+
+#: .\core\templates\core\activities.html:177
+#: .\core\templates\core\activities.html:180
+msgid "Les Antilles de Jonzac"
+msgstr "The Antilles of Jonzac"
+
+#: .\core\templates\core\activities.html:182
+msgid ""
+"Les Antilles de Jonzac est un parc aquatique situé à Jonzac, offrant une "
+"variété d'attractions aquatiques pour toute la famille. Les visiteurs "
+"peuvent profiter de toboggans, de piscines à vagues et d'espaces de détente "
+"dans un cadre tropical."
+msgstr ""
+"The Antilles of Jonzac is a water park located in Jonzac, offering a variety "
+"of water attractions for the whole family. Visitors can enjoy slides, wave "
+"pools, and relaxation areas in a tropical setting."
+
+#: .\core\templates\core\activities.html:195
+#: .\core\templates\core\activities.html:198
+msgid "Bordeaux"
+msgstr "Bordeaux"
+
+#: .\core\templates\core\activities.html:200
+msgid ""
+"Bordeaux est une ville dynamique et culturelle, célèbre pour son vin et son "
+"architecture. Les visiteurs peuvent explorer le centre historique, classé au "
+"patrimoine mondial de l'UNESCO, et déguster des vins dans les nombreuses "
+"caves et domaines viticoles de la région."
+msgstr ""
+"Bordeaux is a dynamic and cultural city, famous for its wine and "
+"architecture. Visitors can explore the historic center, classified as a "
+"UNESCO World Heritage Site, and taste wines in the many cellars and "
+"vineyards of the region."
+
+#: .\core\templates\core\activities.html:212
+#: .\core\templates\core\activities.html:215
+msgid "Saint-Émilion"
+msgstr "Saint-Émilion"
+
+#: .\core\templates\core\activities.html:217
+msgid ""
+"Saint-Émilion est une charmante ville médiévale, célèbre pour ses vins "
+"prestigieux. Les visiteurs peuvent explorer les ruelles pavées, visiter les "
+"vignobles environnants et déguster des grands crus dans les caves "
+"historiques."
+msgstr ""
+"Saint-Émilion is a charming medieval town, famous for its prestigious wines. "
+"Visitors can explore the cobbled streets, visit the surrounding vineyards, "
+"and taste grand crus in the historic cellars."
+
+#: .\core\templates\core\activities.html:230
+#: .\core\templates\core\activities.html:233
+msgid "Bassin d'Arcachon"
+msgstr "Arcachon Bay"
+
+#: .\core\templates\core\activities.html:235
+msgid ""
+"Le Bassin d'Arcachon est une destination prisée pour ses paysages côtiers, "
+"ses plages et ses activités nautiques. Les visiteurs peuvent déguster des "
+"huîtres, explorer les dunes du Pilat et profiter des charmants villages de "
+"pêcheurs."
+msgstr ""
+"Arcachon Bay is a popular destination for its coastal landscapes, beaches, "
+"and water activities. Visitors can enjoy oysters, explore the Dune du Pilat, "
+"and take advantage of the charming fishing villages."
+
+#: .\core\templates\core\base.html:20 .\core\templates\core\home.html:5
+msgid "Accueil | Camping Le Maine Blanc"
+msgstr "Home | Camping Le Maine Blanc"
+
+#: .\core\templates\core\base.html:59 .\core\templates\core\base.html:144
+msgid ""
+"Logo représentant un sapin, une tente, un feu de camp et un soleil au-dessus "
+"du nom camping le Maine Blanc"
+msgstr ""
+"Logo representing a fir tree, a tent, a campfire and a sun above named after "
+"the Maine Blanc campsite."
+
+#: .\core\templates\core\base.html:65
+msgid "Basculer la navigation"
+msgstr "Toggle navigation"
+
+#: .\core\templates\core\base.html:73
+msgid "Accueil"
+msgstr "Home"
+
+#: .\core\templates\core\base.html:76
+msgid "A propos"
+msgstr "About"
+
+#: .\core\templates\core\base.html:79
+msgid "Infos Pratiques"
+msgstr "Practical Information"
+
+#: .\core\templates\core\base.html:82
+msgid "Services"
+msgstr "Services"
+
+#: .\core\templates\core\base.html:85
+msgid "Hébergements & Réservations"
+msgstr "Accomadations & Booking"
+
+#: .\core\templates\core\base.html:88
+msgid "Aux alentours"
+msgstr "Nearby"
+
+#: .\core\templates\core\base.html:91
+#: .\core\templates\core\privacy-policy.html:106
+msgid "Contact"
+msgstr "Contact"
+
+#: .\core\templates\core\base.html:119
+msgid "Changer la langue vers"
+msgstr "Change language to"
+
+#: .\core\templates\core\base.html:146
+msgid ""
+"Profitez d’un séjour nature en Gironde, dans une ambiance conviviale et "
+"familiale."
+msgstr "Enjoy a nature stay in Gironde, in a friendly and family atmosphere."
+
+#: .\core\templates\core\base.html:150
+msgid "Informations & Accès"
+msgstr "Information & Access"
+
+#: .\core\templates\core\base.html:151
+msgid "Logo Carte"
+msgstr "Logo Card"
+
+#: .\core\templates\core\base.html:151
+msgid "Lieu-Dit Le Maine Blanc"
+msgstr "Lieu-Dit Le Maine Blanc"
+
+#: .\core\templates\core\base.html:152
+msgid "Logo Téléphone"
+msgstr "Logo Phone"
+
+#: .\core\templates\core\base.html:152
+#: .\reservations\templates\reservations\reservation_request.html:20
+msgid "05 57 42 52 81"
+msgstr "+33 5 57 42 52 81"
+
+#: .\core\templates\core\base.html:153
+msgid "Logo Email"
+msgstr "Logo Email"
+
+#: .\core\templates\core\base.html:154
+msgid "Voir sur Google Maps"
+msgstr "See on Google Maps"
+
+#: .\core\templates\core\base.html:159
+msgid "Suivez-nous"
+msgstr "Follow us"
+
+#: .\core\templates\core\base.html:160
+msgid "Logo Facebook"
+msgstr "Logo Facebook"
+
+#: .\core\templates\core\base.html:161
+msgid "Logo Instagram"
+msgstr "Logo Instagram"
+
+#: .\core\templates\core\base.html:170
+msgid "Mentions légales"
+msgstr "Legal Notice"
+
+#: .\core\templates\core\base.html:171
+msgid "Politique de confidentialité"
+msgstr "Privacy Policy"
+
+#: .\core\templates\core\base.html:172
+msgid "Règlement intérieur"
+msgstr "Internal Regulations"
+
+#: .\core\templates\core\home.html:14
+msgid "Bienvenue au Camping Le Maine Blanc"
+msgstr "Welcome to Camping Le Maine Blanc"
+
+#: .\core\templates\core\home.html:15
+msgid "Un coin de nature au cœur de la Gironde"
+msgstr "A natural haven in the heart of Gironde"
+
+#: .\core\templates\core\home.html:18 .\core\templates\core\home.html:19
+msgid "Ouvert toute l'année"
+msgstr "Open all year round"
+
+#: .\core\templates\core\infos.html:5
+msgid "Informations pratiques | Camping Le Maine Blanc"
+msgstr "Practical Information | Camping Le Maine Blanc"
+
+#: .\core\templates\core\infos.html:16
+msgid "Informations pratiques"
+msgstr "Practical Information"
+
+#: .\core\templates\core\infos.html:21
+msgid "Horaires"
+msgstr "Hours"
+
+#: .\core\templates\core\infos.html:24
+msgid "Accueil :"
+msgstr "Home :"
+
+#: .\core\templates\core\infos.html:25
+msgid "Isabelle et Franck vous accueillent chaque jour de"
+msgstr "Isabelle and Franck welcome you every day from"
+
+#: .\core\templates\core\infos.html:25 .\core\templates\core\infos.html:37
+#: .\core\templates\core\services.html:30
+#: .\core\templates\core\services.html:75
+#: .\core\templates\core\services.html:84
+msgid "à"
+msgstr "to"
+
+#: .\core\templates\core\infos.html:25
+msgid "et de"
+msgstr "and from"
+
+#: .\core\templates\core\infos.html:25
+msgid "pour répondre à vos questions et vous accompagner durant votre séjour."
+msgstr "to answer your questions and assist you during your stay."
+
+#: .\core\templates\core\infos.html:28
+msgid "Arrivées :"
+msgstr "Arrivals :"
+
+#: .\core\templates\core\infos.html:29
+msgid "Les arrivées se font entre"
+msgstr "Arrivals are between"
+
+#: .\core\templates\core\infos.html:29 .\core\templates\core\services.html:59
+msgid "et"
+msgstr "and"
+
+#: .\core\templates\core\infos.html:29
+msgid "en haute saison, et jusqu’à"
+msgstr "in high season, and until"
+
+#: .\core\templates\core\infos.html:29
+msgid "en basse saison, afin que chacun puisse s’installer confortablement."
+msgstr "in low season, so that everyone can settle in comfortably."
+
+#: .\core\templates\core\infos.html:32
+msgid "Départs :"
+msgstr "Departures :"
+
+#: .\core\templates\core\infos.html:33
+msgid "Le jour de votre départ, merci de libérer votre emplacement avant"
+msgstr "On the day of your departure, please vacate your pitch by"
+
+#: .\core\templates\core\infos.html:33
+msgid "afin de permettre une bonne organisation pour les prochains arrivants."
+msgstr "to allow for proper organization for the next arrivals."
+
+#: .\core\templates\core\infos.html:36
+msgid "Portail de sécurité :"
+msgstr "Secure Portal :"
+
+#: .\core\templates\core\infos.html:37
+msgid "Pour la tranquillité de tous, le portail est fermé de"
+msgstr "To ensure everyone's peace of mind, the portal is closed from"
+
+#: .\core\templates\core\infos.html:37
+msgid "Merci d’anticiper vos déplacements en conséquence."
+msgstr "Please plan your movements accordingly."
+
+#: .\core\templates\core\infos.html:44
+msgid "Accessibilité"
+msgstr "Accessibility"
+
+#: .\core\templates\core\infos.html:45
+msgid ""
+"Parce que nous tenons à accueillir chacun dans les meilleures conditions, "
+"notre camping dispose d’aménagements adaptés aux personnes à mobilité "
+"réduite afin de leur garantir un séjour agréable et serein."
+msgstr ""
+"Because we are committed to welcoming everyone under the best conditions, "
+"our campsite has facilities adapted for people with reduced mobility to "
+"ensure a pleasant and peaceful stay."
+
+#: .\core\templates\core\infos.html:51
+msgid ""
+"Pour plus de confort, le camping met à disposition des camping-caristes une "
+"aire équipée pour : "
+msgstr ""
+"For more comfort, the campsite provides motorhome users with a dedicated "
+"area equipped for :"
+
+#: .\core\templates\core\infos.html:53
+msgid "le remplissage / la vidange des eaux usées"
+msgstr "the filling / emptying of wastewater"
+
+#: .\core\templates\core\infos.html:54
+msgid "la vidange des caissettes WC"
+msgstr "the emptying of toilet cassettes"
+
+#: .\core\templates\core\infos.html:60
+msgid "Conditions de séjour & Paiement"
+msgstr "Terms of Stay & Payment"
+
+#: .\core\templates\core\infos.html:63
+msgid "Règlement du séjour :"
+msgstr "Payment for the stay :"
+
+#: .\core\templates\core\infos.html:64
+msgid ""
+"Le paiement de la location, des taxes, des charges ou de la caution "
+"s’effectue dès l’inscription à l’accueil."
+msgstr ""
+"The payment for the rental, taxes, charges, or deposit is made upon "
+"registration at the reception."
+
+#: .\core\templates\core\infos.html:67
+msgid "Affichage des tarifs :"
+msgstr "Display of rates :"
+
+#: .\core\templates\core\infos.html:68
+msgid ""
+"Les montants sont indiqués à l’entrée du camping, à l’accueil, et détaillés "
+"ci-dessous."
+msgstr ""
+"The amounts are displayed at the entrance of the campsite, at the reception, "
+"and detailed below."
+
+#: .\core\templates\core\infos.html:71
+msgid "Préparation du départ :"
+msgstr "Departure Preparation :"
+
+#: .\core\templates\core\infos.html:72
+msgid ""
+"Les clients séjournant en mobil-home sont invités à prévenir l’accueil la "
+"veille de leur départ afin d’organiser l’état des lieux."
+msgstr ""
+"Clients staying in mobile homes are invited to inform the reception the day "
+"before their departure in order to organize the inventory."
+
+#: .\core\templates\core\infos.html:75
+msgid "Visiteurs et animaux :"
+msgstr "Visitors and Animals :"
+
+#: .\core\templates\core\infos.html:76
+msgid ""
+"Chaque visiteur doit obligatoirement se présenter à l’accueil dès son "
+"arrivée et présenter une pièce d’identité. Les animaux de compagnie sont les "
+"bienvenus sous réserve de présenter un carnet de vaccination à jour."
+msgstr ""
+"Each visitor must present themselves at the reception upon arrival and show "
+"a piece of identification. Pets are welcome provided "
+"that an up-to-date vaccination record is presented."
+
+#: .\core\templates\core\infos.html:79
+msgid "Conditions de remboursement :"
+msgstr "Refund Conditions :"
+
+#: .\core\templates\core\infos.html:80
+msgid ""
+"Aucun remboursement n’est possible en cas de mauvais temps, d’arrivée "
+"tardive ou de départ anticipé, sauf circonstances particulières justifiées "
+"(ex. : hospitalisation)."
+msgstr ""
+"No refund is possible in case of bad weather, late arrival, or early "
+"departure, except in justified special circumstances (e.g.: hospitalization)."
+
+#: .\core\templates\core\infos.html:83
+msgid "Annulation par le camping :"
+msgstr "Cancellation by the campsite :"
+
+#: .\core\templates\core\infos.html:84
+msgid ""
+"Les propriétaires se réservent le droit d’annuler une réservation en cas de "
+"force majeure, d’erreur manifeste de disponibilité, ou de non-respect du "
+"règlement intérieur. Dans ce cas, le client sera intégralement remboursé des "
+"sommes versées."
+msgstr ""
+"The owners reserve the right to cancel a reservation in case of force "
+"majeure, obvious availability error, or non-compliance with the internal "
+"regulations. In this case, the customer will be fully refunded the amounts "
+"paid."
+
+#: .\core\templates\core\infos.html:91
+msgid "Tarifs pour l'année"
+msgstr "Rates for the year"
+
+#: .\core\templates\core\infos.html:92
+msgid "Taxe de séjour à compter du"
+msgstr "Tourist tax from"
+
+#: .\core\templates\core\infos.html:92
+msgid "par personne/nuit (incluse dans le prix)"
+msgstr "per person/night (included in the price)"
+
+#: .\core\templates\core\infos.html:93
+msgid "Tous les prix sont TTC."
+msgstr "All prices are inclusive of VAT."
+
+#: .\core\templates\core\infos.html:100 .\core\templates\core\infos.html:442
+msgid "Basse Saison"
+msgstr "Low Season"
+
+#: .\core\templates\core\infos.html:100 .\core\templates\core\infos.html:101
+#: .\core\templates\core\infos.html:102 .\core\templates\core\infos.html:442
+#: .\core\templates\core\infos.html:443 .\core\templates\core\infos.html:444
+msgid "du"
+msgstr "from"
+
+#: .\core\templates\core\infos.html:101
+msgid "Moyenne Saison"
+msgstr "Mid Season"
+
+#: .\core\templates\core\infos.html:101 .\core\templates\core\infos.html:443
+msgid "et du"
+msgstr "and from"
+
+#: .\core\templates\core\infos.html:102
+msgid "Haute Saison"
+msgstr "High Season"
+
+#: .\core\templates\core\infos.html:109
+msgid "Camping-car (1-2 pers.)"
+msgstr "Motorhome (1-2 pers.)"
+
+#: .\core\templates\core\infos.html:113 .\core\templates\core\infos.html:163
+#: .\core\templates\core\infos.html:274
+msgid "Avec élec."
+msgstr "With Elec."
+
+#: .\core\templates\core\infos.html:117 .\core\templates\core\infos.html:167
+#: .\core\templates\core\infos.html:278
+msgid "Pas d'électricité"
+msgstr "Without Elec."
+
+#: .\core\templates\core\infos.html:119 .\core\templates\core\infos.html:169
+#: .\core\templates\core\infos.html:280
+msgid "Sans élec."
+msgstr "Without Elec."
+
+#: .\core\templates\core\infos.html:158
+msgid "Caravane / Fourgon / Van"
+msgstr "Caravan / Converted Van / Van"
+
+#: .\core\templates\core\infos.html:178 .\core\templates\core\infos.html:213
+#: .\core\templates\core\infos.html:241 .\core\templates\core\infos.html:288
+#: .\core\templates\core\infos.html:316 .\core\templates\core\infos.html:344
+msgid "1 pers."
+msgstr "1 pers."
+
+#: .\core\templates\core\infos.html:183 .\core\templates\core\infos.html:214
+#: .\core\templates\core\infos.html:242 .\core\templates\core\infos.html:289
+#: .\core\templates\core\infos.html:317 .\core\templates\core\infos.html:345
+msgid "2 pers."
+msgstr "2 pers."
+
+#: .\core\templates\core\infos.html:270
+msgid "Tente / Voiture Tente"
+msgstr "Tent / Car Tent"
+
+#: .\core\templates\core\infos.html:373
+msgid "Ouvriers"
+msgstr "Workers"
+
+#: .\core\templates\core\infos.html:374
+msgid "Tarifs comprenant l'électricité"
+msgstr "Rates including electricity"
+
+#: .\core\templates\core\infos.html:380 .\core\templates\core\infos.html:382
+msgid "jour"
+msgstr "day"
+
+#: .\core\templates\core\infos.html:388
+msgid "Emplacement pour le week-end (si non libéré)"
+msgstr "Pitch for the weekend (if not vacated)"
+
+#: .\core\templates\core\infos.html:391
+msgid "sans électricité"
+msgstr "without electricity"
+
+#: .\core\templates\core\infos.html:394
+msgid "avec électricité"
+msgstr "with electricity"
+
+#: .\core\templates\core\infos.html:407
+msgid "Suppléments emplacements"
+msgstr "Supplements pitches"
+
+#: .\core\templates\core\infos.html:415
+msgid "Visiteur : "
+msgstr "Visitor : "
+
+#: .\core\templates\core\infos.html:433
+msgid "Tarifs des Mobil-homes"
+msgstr "Mobile Home Rates"
+
+#: .\core\templates\core\infos.html:434
+msgid "Tarifs par type de mobil-home et saison"
+msgstr "Rates by type of mobile home and season"
+
+#: .\core\templates\core\infos.html:437 .\core\templates\core\infos.html:494
+#: .\reservations\forms.py:86
+msgid "Mobil-home"
+msgstr "Mobile Home"
+
+#: .\core\templates\core\infos.html:438
+msgid "A la nuitée"
+msgstr "Per night"
+
+#: .\core\templates\core\infos.html:440
+msgid "(Uniquement en basse et moyenne saison)"
+msgstr "(Only in low and mid season)"
+
+#: .\core\templates\core\infos.html:443
+msgid "Moyenne saison"
+msgstr "Mid Season"
+
+#: .\core\templates\core\infos.html:444
+msgid "Haute saison"
+msgstr "High Season"
+
+#: .\core\templates\core\infos.html:457
+msgid "Réservé aux ouvriers"
+msgstr "Reserved for workers"
+
+#: .\core\templates\core\infos.html:464
+msgid "basse saison"
+msgstr "low Season"
+
+#: .\core\templates\core\infos.html:465
+msgid "moyenne saison"
+msgstr "mid Season"
+
+#: .\core\templates\core\infos.html:474
+msgid "€/semaine (1 pers)"
+msgstr "€/week (1 person)"
+
+#: .\core\templates\core\infos.html:475
+msgid "€/semaine (2 pers)"
+msgstr "€/week (2 people)"
+
+#: .\core\templates\core\infos.html:476
+msgid "€/semaine (3 pers)"
+msgstr "€/week (3 people)"
+
+#: .\core\templates\core\infos.html:480 .\core\templates\core\infos.html:481
+#: .\core\templates\core\infos.html:482
+msgid "€/semaine"
+msgstr "€/week"
+
+#: .\core\templates\core\infos.html:492
+msgid "Caution à prévoir : "
+msgstr "Deposit to be provided :"
+
+#: .\core\templates\core\infos.html:495
+msgid "Ménage"
+msgstr "Cleaning"
+
+#: .\core\templates\core\infos.html:499
+msgid ""
+"Oreillers et couettes fournis (taies d’oreillers, housses de couette et "
+"draps disponibles en location à partir de"
+msgstr ""
+"Pillows and duvets provided (pillowcases, duvet covers and sheets available "
+"for rent from"
+
+#: .\core\templates\core\infos.html:502
+msgid "Antennes TV fournies (téléviseur non inclus)."
+msgstr "TV antennas provided (television not included)."
+
+#: .\core\templates\core\infos.html:512 .\core\templates\core\infos.html:515
+msgid "Plan du camping"
+msgstr "Campsite Map"
+
+#: .\core\templates\core\infos.html:520
+msgid "Notre camping propose"
+msgstr "Our campsite offers"
+
+#: .\core\templates\core\infos.html:520
+msgid ""
+"emplacements pour tous les goûts : ombragés, semi-ombragés ou ensoleillés, "
+"avec ou sans électricité, pour un séjour confortable et personnalisé."
+msgstr ""
+"pitches for all tastes: shaded, semi-shaded or sunny, with or without "
+"electricity, for a comfortable and personalized stay."
+
+#: .\core\templates\core\infos.html:521
+msgid ""
+"Des fontaines à eau sont réparties dans tout le camping pour vous faciliter "
+"la vie pendant votre séjour."
+msgstr ""
+"Water fountains are distributed throughout the campsite to make your stay "
+"easier."
+
+#: .\core\templates\core\infos.html:522
+msgid ""
+"Pour ceux qui préfèrent le confort d’un logement, nous disposons également de"
+msgstr "For those who prefer the comfort of accommodation, we also have"
+
+#: .\core\templates\core\infos.html:522
+msgid "mobil-homes entièrement équipés."
+msgstr "fully equipped mobile homes."
+
+#: .\core\templates\core\infos.html:523
+msgid ""
+"Parcourez notre plan pour découvrir l’agencement des emplacements et des "
+"services, et préparer au mieux votre séjour."
+msgstr ""
+"Browse our map to discover the layout of the pitches and services, and to "
+"prepare your stay as best as possible."
+
+#: .\core\templates\core\legal.html:5
+msgid "Mentions Légales | Camping Le Maine Blanc"
+msgstr "Legal Notice | Camping Le Maine Blanc"
+
+#: .\core\templates\core\legal.html:15
+msgid "Mentions Légales"
+msgstr "Legal Notice"
+
+#: .\core\templates\core\legal.html:20
+msgid "Éditeur du site"
+msgstr "Site Publisher"
+
+#: .\core\templates\core\legal.html:22
+msgid ""
+"Adresse : Lieu-Dit Le Maine Blanc 33920 Saint-Christoly-de-Blaye, Gironde, "
+"France"
+msgstr ""
+"Address: Lieu-Dit Le Maine Blanc 33920 Saint-Christoly-de-Blaye, Gironde, "
+"France"
+
+#: .\core\templates\core\legal.html:23
+msgid "Téléphone : 05 57 42 52 81"
+msgstr "Phone: +33 5 57 42 52 81"
+
+#: .\core\templates\core\legal.html:24
+msgid "Email : camping@lesterresdumaineblanc.com"
+msgstr "Email: camping@lesterresdumaineblanc.com"
+
+#: .\core\templates\core\legal.html:25
+msgid "SIRET : 89265659600012"
+msgstr "SIRET: 89265659600012"
+
+#: .\core\templates\core\legal.html:26
+msgid "TVA intracommunautaire : FR 08892656596"
+msgstr "VAT number: FR 08892656596"
+
+#: .\core\templates\core\legal.html:30
+msgid "Responsable de la publication"
+msgstr "Responsible for publication"
+
+#: .\core\templates\core\legal.html:31
+msgid ""
+"Le responsable de la publication est <strong>Monsieur Franck WALLERAND</"
+"strong>, en qualité de représentant légal du Camping Le Maine Blanc."
+msgstr ""
+"The person responsible for publication is <strong>Mr. Franck WALLERAND</"
+"strong>, as the legal representative of Camping Le Maine Blanc."
+
+#: .\core\templates\core\legal.html:35
+msgid "Conception et réalisation"
+msgstr "Design and Development"
+
+#: .\core\templates\core\legal.html:36
+msgid ""
+"Site conçu et développé bénévolement par <strong>Nathalie Darnaudat</"
+"strong>, titulaire d'un certificat professionnel en développement web et "
+"mobile."
+msgstr ""
+"Website designed and developed voluntarily by <strong>Nathalie Darnaudat</"
+"strong>, holder of a professional certificate in web and mobile development."
+
+#: .\core\templates\core\legal.html:40
+msgid "Hébergement du site"
+msgstr "Website Hosting"
+
+#: .\core\templates\core\legal.html:41
+msgid "Le site est hébergé par : <strong>[Nom de l’hébergeur choisi]</strong>"
+msgstr "The site is hosted by: <strong>[Name of the chosen host]</strong>"
+
+#: .\core\templates\core\legal.html:42
+msgid "[Adresse complète de l’hébergeur]"
+msgstr "[Full address of the host]"
+
+#: .\core\templates\core\legal.html:43
+msgid "[Téléphone de l’hébergeur]"
+msgstr "[Phone number of the host]"
+
+#: .\core\templates\core\legal.html:47
+msgid "Propriété intellectuelle"
+msgstr "Intellectual property"
+
+#: .\core\templates\core\legal.html:48
+msgid ""
+"L’ensemble des contenus présents sur ce site (textes, images, logo, "
+"photographies, structure, design) sont la propriété exclusive de "
+"<strong>Camping Le Maine Blanc</strong>, sauf mention contraire. Toute "
+"reproduction, représentation, modification, publication, adaptation de tout "
+"ou partie des éléments du site est interdite, sauf autorisation écrite "
+"préalable."
+msgstr ""
+"The entire content present on this site (texts, images, logo, photographs, "
+"structure, design) is the exclusive property of <strong>Camping Le Maine "
+"Blanc</strong>, unless otherwise stated. Any reproduction, representation, "
+"modification, publication, adaptation of all or part of the elements of the "
+"site is prohibited, unless prior written authorization is obtained."
+
+#: .\core\templates\core\legal.html:52
+msgid "Données personnelles"
+msgstr "Personal Data"
+
+#: .\core\templates\core\legal.html:53
+msgid ""
+"Les informations collectées via le formulaire de contact ou de réservation "
+"sont exclusivement destinées au <strong>Camping Le Maine Blanc</strong> et "
+"ne sont pas transmises à des tiers."
+msgstr ""
+"The information collected via the contact or booking form is exclusively "
+"intended for <strong>Camping Le Maine Blanc</strong> and is not shared with "
+"third parties."
+
+#: .\core\templates\core\legal.html:54
+msgid ""
+"Conformément au Règlement Général sur la Protection des Données (RGPD) et à "
+"la loi Informatique et Libertés, vous disposez d'un droit d'accès, de "
+"rectification et de suppression de vos données personnelles."
+msgstr ""
+"In accordance with the General Data Protection Regulation (GDPR) and the "
+"Data Protection Act, you have the right to access, rectify and delete your "
+"personal data."
+
+#: .\core\templates\core\legal.html:55
+msgid ""
+"Pour exercer ce droit, vous pouvez contacter le camping à l'adresse email : "
+"camping@lesterresdumaineblanc.com"
+msgstr ""
+"To exercise this right, you can contact the campsite at the email address: "
+"camping@lesterresdumaineblanc.com"
+
+#: .\core\templates\core\legal.html:59
+msgid "Limitation de responsabilité"
+msgstr "Limitation of liability"
+
+#: .\core\templates\core\legal.html:60
+msgid ""
+"Le <strong>Camping Le Maine Blanc</strong> s'efforce de fournir sur ce site "
+"des informations précises et à jour. Toutefois, il ne pourra être tenu "
+"responsable des omissions, inexactitudes ou carences dans la mise à jour, "
+"qu'elles soient de son fait ou du fait des tiers partenaires qui lui "
+"fournissent ces informations."
+msgstr ""
+"The <strong>Camping Le Maine Blanc</strong> strives to provide accurate and "
+"up-to-date information on this site. However, it cannot be held responsible "
+"for omissions, inaccuracies or deficiencies in the update, whether they are "
+"due to its own actions or those of third-party partners who provide it with "
+"this information."
+
+#: .\core\templates\core\legal.html:64
+msgid "Liens hypertextes"
+msgstr "Hyperlinks"
+
+#: .\core\templates\core\legal.html:65
+msgid ""
+"Le site peut contenir des liens hypertextes vers d'autres sites. Le "
+"<strong>Camping Le Maine Blanc</strong> décline toute responsabilité quant "
+"aux contenus ou aux pratiques de ces sites tiers."
+msgstr ""
+"The site may contain hyperlinks to other sites. <strong>Camping Le Maine "
+"Blanc</strong> declines all responsibility for the content or practices of "
+"these third-party sites."
+
+#: .\core\templates\core\legal.html:69
+msgid "Droit applicable"
+msgstr "Applicable law"
+
+#: .\core\templates\core\legal.html:70
+msgid "Le présent site et ses mentions légales sont soumis au droit français."
+msgstr "This site and its legal notices are subject to French law."
+
+#: .\core\templates\core\legal.html:74
+#: .\core\templates\core\privacy-policy.html:96
+msgid "Cookies"
+msgstr "Cookies"
+
+#: .\core\templates\core\legal.html:75
+msgid ""
+"Le site peut utiliser des cookies afin d'améliorer l'expérience utilisateur. "
+"Ces cookies ne collectent aucune donnée personnelle sensible."
+msgstr ""
+"The site may use cookies to improve user experience.These cookies do not "
+"collect any sensitive personal data."
+
+#: .\core\templates\core\legal.html:76
+msgid ""
+"Vous pouvez configurer votre navigateur pour accepter, refuser ou supprimer "
+"les cookies à tout moment."
+msgstr ""
+"You can configure your browser to accept, refuse or delete cookies at any "
+"time."
+
+#: .\core\templates\core\legal.html:77
+msgid ""
+"En poursuivant votre navigation sur le site, vous acceptez l'utilisation "
+"éventuelle de cookies."
+msgstr "By continuing to browse the site, you accept the use of cookies."
+
+#: .\core\templates\core\legal.html:81
+msgid "Traductions automatiques"
+msgstr "Automatic Translations"
+
+#: .\core\templates\core\legal.html:82
+msgid ""
+"Les traductions présentes sur ce site sont fournies à titre indicatif et "
+"générées automatiquement. Nous déclinons toute responsabilité quant à "
+"l'exactitude ou la précision des informations traduites."
+msgstr ""
+"The translations on this site are provided for information only and are "
+"automatically generated. We disclaim all responsibility for the accuracy or "
+"completeness of the translated information."
+
+#: .\core\templates\core\legal.html:83
+msgid ""
+"Pour obtenir des informations officielles et exactes, nous vous invitons à "
+"consulter le contenu original en français."
+msgstr ""
+"For official and accurate information, we invite you to consult the original "
+"content in French."
+
+#: .\core\templates\core\not_found.html:5
+msgid "Erreur 404 | Camping Le Maine Blanc"
+msgstr "404 Error | Camping Le Maine Blanc"
+
+#: .\core\templates\core\not_found.html:16
+msgid "Erreur 404"
+msgstr "404 Error"
+
+#: .\core\templates\core\not_found.html:21
+msgid "Erreur 404 - Page non trouvée"
+msgstr "404 Error - Page Not Found"
+
+#: .\core\templates\core\not_found.html:26
+msgid "Désolé, la page que vous recherchez n'existe pas."
+msgstr "Sorry, the page you are looking for does not exist."
+
+#: .\core\templates\core\not_found.html:27
+msgid "Retour à l'accueil"
+msgstr "Back to Home"
+
+#: .\core\templates\core\privacy-policy.html:5
+msgid "Politique de Confidentialité | Camping Le Maine Blanc"
+msgstr "Privacy Policy | Camping Le Maine Blanc"
+
+#: .\core\templates\core\privacy-policy.html:16
+msgid "Politique de Confidentialité"
+msgstr "Privacy Policy"
+
+#: .\core\templates\core\privacy-policy.html:22
+msgid "Introduction"
+msgstr "Introduction"
+
+#: .\core\templates\core\privacy-policy.html:23
+msgid ""
+"La présente politique de confidentialité a pour objectif d’informer les "
+"utilisateurs du site <strong>Camping Le Maine Blanc</strong> sur la manière "
+"dont leurs données personnelles peuvent être collectées, traitées et "
+"protégées."
+msgstr ""
+"The purpose of this privacy policy is to inform users of the <strong>Camping "
+"Le Maine Blanc</strong> website about how their personal data may be "
+"collected, processed and protected."
+
+#: .\core\templates\core\privacy-policy.html:27
+msgid "Données collectées"
+msgstr "Personal Data"
+
+#: .\core\templates\core\privacy-policy.html:28
+msgid ""
+"Dans le cadre de l’utilisation du site, le <strong>Camping Le Maine Blanc</"
+"strong> peut être amené à collecter les informations suivantes :"
+msgstr ""
+"In the context of using the site, <strong>Camping Le Maine Blanc</strong> "
+"may collect the following information:"
+
+#: .\core\templates\core\privacy-policy.html:30
+msgid "Nom, prénom"
+msgstr "Name, First Name"
+
+#: .\core\templates\core\privacy-policy.html:31
+msgid "Adresse e-mail"
+msgstr "Email Address"
+
+#: .\core\templates\core\privacy-policy.html:32
+msgid "Numéro de téléphone"
+msgstr "Phone Number"
+
+#: .\core\templates\core\privacy-policy.html:33
+msgid "Adresse postale (en cas de réservation)"
+msgstr "Postal Address (in case of reservation)"
+
+#: .\core\templates\core\privacy-policy.html:34
+msgid ""
+"Informations liées à votre réservation (dates de séjour, type d’hébergement, "
+"etc.)"
+msgstr ""
+"Information related to your booking (stay dates, type of accommodation, etc.)"
+
+#: .\core\templates\core\privacy-policy.html:35
+msgid "Adresse IP et données de navigation (via les cookies)"
+msgstr "IP Address and browsing data (via cookies)"
+
+#: .\core\templates\core\privacy-policy.html:40
+msgid "Finalité de la collecte"
+msgstr "Purpose of Data Collection"
+
+#: .\core\templates\core\privacy-policy.html:41
+msgid "Les données collectées ont pour objectifs :"
+msgstr "The collected data aims to:"
+
+#: .\core\templates\core\privacy-policy.html:43
+msgid "La gestion des demandes via le formulaire de contact"
+msgstr "Managing requests via the contact form"
+
+#: .\core\templates\core\privacy-policy.html:44
+msgid "La gestion des réservations"
+msgstr "Managing reservations"
+
+#: .\core\templates\core\privacy-policy.html:45
+msgid "L’amélioration de l’expérience utilisateur sur le site"
+msgstr "Improving the user experience on the site"
+
+#: .\core\templates\core\privacy-policy.html:46
+msgid "Le respect des obligations légales et réglementaires"
+msgstr "Compliance with legal and regulatory obligations"
+
+#: .\core\templates\core\privacy-policy.html:51
+msgid "Base légale du traitement"
+msgstr "Legal Basis for Processing"
+
+#: .\core\templates\core\privacy-policy.html:52
+msgid "Le traitement de vos données repose sur :"
+msgstr "The processing of your data is based on:"
+
+#: .\core\templates\core\privacy-policy.html:54
+msgid "Votre consentement (formulaire de contact, cookies)"
+msgstr "Your consent (contact form, cookies)"
+
+#: .\core\templates\core\privacy-policy.html:55
+msgid "L’exécution d’un contrat (réservation d’un séjour)"
+msgstr "The performance of a contract (booking a stay)"
+
+#: .\core\templates\core\privacy-policy.html:56
+msgid "Le respect d’obligations légales (facturation, comptabilité)"
+msgstr "Compliance with legal obligations (billing, accounting)"
+
+#: .\core\templates\core\privacy-policy.html:62
+msgid "Durée de conservation"
+msgstr "Data Retention Period"
+
+#: .\core\templates\core\privacy-policy.html:63
+msgid ""
+"Vos données personnelles sont conservées uniquement le temps nécessaire aux "
+"finalités pour lesquelles elles ont été collectées :"
+msgstr ""
+"Your personal data is kept only for the time necessary for the purposes for "
+"which it was collected:"
+
+#: .\core\templates\core\privacy-policy.html:65
+msgid ""
+"Données de réservation : conservées pendant la durée légale de conservation "
+"comptable (10 ans)"
+msgstr "Reservation data: kept for the legal retention period (10 years)"
+
+#: .\core\templates\core\privacy-policy.html:66
+msgid "Données de contact : supprimées 3 ans après le dernier échange"
+msgstr "Contact data: deleted 3 years after the last exchange"
+
+#: .\core\templates\core\privacy-policy.html:67
+msgid "Cookies : durée maximale de 13 mois"
+msgstr "Cookies: maximum duration of 13 months"
+
+#: .\core\templates\core\privacy-policy.html:72
+msgid "Partage des données"
+msgstr "Data Sharing"
+
+#: .\core\templates\core\privacy-policy.html:73
+msgid "Les données collectées sont exclusivement destinées au"
+msgstr "The collected data is exclusively intended for"
+
+#: .\core\templates\core\privacy-policy.html:73
+msgid ""
+"Elles ne sont en aucun cas vendues, échangées ou transmises à des tiers, "
+"sauf obligation légale."
+msgstr ""
+"They are in no way sold, exchanged or transmitted to third parties, except "
+"as required by law."
+
+#: .\core\templates\core\privacy-policy.html:77
+msgid "Sécurité des données"
+msgstr "Data Security"
+
+#: .\core\templates\core\privacy-policy.html:78
+#: .\core\templates\core\privacy-policy.html:102
+msgid "Le"
+msgstr "The"
+
+#: .\core\templates\core\privacy-policy.html:78
+msgid ""
+"met en œuvre toutes les mesures techniques et organisationnelles nécessaires "
+"afin de protéger vos données personnelles contre toute perte, altération, "
+"accès non autorisé ou divulgation."
+msgstr ""
+"The implements all necessary technical and organizational measures to "
+"protect your personal data against loss, alteration, unauthorized access or "
+"disclosure."
+
+#: .\core\templates\core\privacy-policy.html:82
+msgid "Vos droits (RGPD)"
+msgstr "Your rights (GDPR)"
+
+#: .\core\templates\core\privacy-policy.html:83
+msgid ""
+"Conformément au Règlement Général sur la Protection des Données (RGPD), vous "
+"disposez des droits suivants :"
+msgstr ""
+"In accordance with the General Data Protection Regulation (GDPR), you have "
+"the following rights:"
+
+#: .\core\templates\core\privacy-policy.html:85
+msgid "Droit d’accès à vos données"
+msgstr "Right of access to your data"
+
+#: .\core\templates\core\privacy-policy.html:86
+msgid "Droit de rectification"
+msgstr "Right to rectification"
+
+#: .\core\templates\core\privacy-policy.html:87
+msgid "Droit à l’effacement"
+msgstr "Right to erasure"
+
+#: .\core\templates\core\privacy-policy.html:88
+msgid "Droit à la limitation du traitement"
+msgstr "Right to restriction of processing"
+
+#: .\core\templates\core\privacy-policy.html:89
+msgid "Droit à la portabilité des données"
+msgstr "Right to data portability"
+
+#: .\core\templates\core\privacy-policy.html:90
+msgid "Droit d’opposition"
+msgstr "Right to object"
+
+#: .\core\templates\core\privacy-policy.html:92
+msgid "Pour exercer vos droits, vous pouvez contacter le Camping par email à :"
+msgstr "To exercise your rights, you can contact the campsite by email at:"
+
+#: .\core\templates\core\privacy-policy.html:97
+msgid ""
+"Le site utilise des cookies afin d’améliorer la navigation et mesurer "
+"l’audience.Vous pouvez à tout moment gérer vos préférences via les "
+"paramètres de votre navigateur."
+msgstr ""
+"The site uses cookies to improve navigation and measure audience. You can "
+"manage your preferences at any time through your browser settings."
+
+#: .\core\templates\core\privacy-policy.html:101
+msgid "Modifications"
+msgstr "Modifications"
+
+#: .\core\templates\core\privacy-policy.html:102
+msgid ""
+"se réserve le droit de modifier la présente politique de confidentialité à "
+"tout moment. Toute modification sera publiée sur cette page."
+msgstr ""
+"reserves the right to modify this privacy policy at any time. Any changes "
+"will be posted on this page."
+
+#: .\core\templates\core\privacy-policy.html:107
+msgid ""
+"Pour toute question relative à cette politique de confidentialité, vous "
+"pouvez nous écrire à :"
+msgstr ""
+"For any questions regarding this privacy policy, you can write to us at :"
+
+#: .\core\templates\core\privacy-policy.html:109
+msgid "Lieu-Dit Le Maine Blanc, 33920 Saint-Christoly-de-Blaye, France"
+msgstr ""
+"Address: Lieu-Dit Le Maine Blanc 33920 Saint-Christoly-de-Blaye, Gironde, "
+"France"
+
+#: .\core\templates\core\privacy-policy.html:110
+msgid "Email :"
+msgstr "Email :"
+
+#: .\core\templates\core\services.html:5
+msgid "Services | Camping Le Maine Blanc"
+msgstr "Services | Camping Le Maine Blanc"
+
+#: .\core\templates\core\services.html:15
+msgid "Nos Services"
+msgstr "Our Services"
+
+#: .\core\templates\core\services.html:19
+msgid "Confort, détente et convivialité au cœur de votre séjour"
+msgstr "Comfort, relaxation and friendliness at the heart of your stay."
+
+#: .\core\templates\core\services.html:27
+#: .\core\templates\core\services.html:28
+msgid "Piscine"
+msgstr "Swimming Pool"
+
+#: .\core\templates\core\services.html:30
+msgid ""
+"Ouverte en haute saison, de mi-juin à mi-septembre, notre piscine extérieure "
+"vous accueille tous les jours de"
+msgstr ""
+"Open in high season, from mid-June to mid-September, our outdoor pool is "
+"open every day from"
+
+#: .\core\templates\core\services.html:30
+msgid "pour un moment de fraîcheur et de détente."
+msgstr "for a refreshing and relaxing break."
+
+#: .\core\templates\core\services.html:31
+msgid ""
+"Non couverte et non chauffée, elle est idéale pour se rafraîchir durant les "
+"belles journées d'été."
+msgstr ""
+"Uncovered and unheated, it’s perfect for cooling off during sunny summer "
+"days."
+
+#: .\core\templates\core\services.html:34
+msgid "Attention : la baignade n'est pas surveillée."
+msgstr "Please note : swimming is not supervised."
+
+#: .\core\templates\core\services.html:34
+msgid ""
+"Les enfants doivent être accompagnés et rester sous la vigilance des parents."
+msgstr "Children must be accompanied and remain under parental supervision."
+
+#: .\core\templates\core\services.html:37
+msgid "Cadenas"
+msgstr "Padlock"
+
+#: .\core\templates\core\services.html:38
+msgid "Piscine privée"
+msgstr "Private pool"
+
+#: .\core\templates\core\services.html:38
+msgid "réservée exclusivement à la clientèle du camping."
+msgstr "exclusively reserved for campsite guests."
+
+#: .\core\templates\core\services.html:49
+msgid "Restauration"
+msgstr "Catering"
+
+#: .\core\templates\core\services.html:50
+msgid "Logo Restauration"
+msgstr "Logo Catering"
+
+#: .\core\templates\core\services.html:54
+msgid "Ouverture :"
+msgstr "Opening :"
+
+#: .\core\templates\core\services.html:54
+msgid ""
+"Le service pain, viennoiseries et l’épicerie sont ouverts toute l’année."
+msgstr "The bread, pastries, and grocery service is open all year round."
+
+#: .\core\templates\core\services.html:58
+msgid "Image Croissant"
+msgstr "Croissant Image"
+
+#: .\core\templates\core\services.html:59
+msgid "Pain frais et viennoiseries chaque matin entre"
+msgstr "Fresh bread and pastries every morning between"
+
+#: .\core\templates\core\services.html:61
+msgid "Pensez à commander la veille avant"
+msgstr "Remember to order the day before by"
+
+#: .\core\templates\core\services.html:61
+msgid "à l'accueil, auprès d'Isabelle."
+msgstr "at reception, with Isabelle."
+
+#: .\core\templates\core\services.html:64
+msgid "Image Caddie"
+msgstr "Trolley Image"
+
+#: .\core\templates\core\services.html:65
+msgid "Epicerie : "
+msgstr "Grocery Store: "
+
+#: .\core\templates\core\services.html:67
+msgid ""
+"Produits salés, sucrés, d'entretien... L'épicerie du camping est toujours là "
+"pour vous sauver la mise !"
+msgstr ""
+"Savory snacks, sweet treats, cleaning products… the campsite’s shop has you "
+"covered !"
+
+#: .\core\templates\core\services.html:70
+msgid "En pleine saison (de juin à septembre) :"
+msgstr "In high season (from June to September) :"
+
+#: .\core\templates\core\services.html:70
+msgid ""
+"le bar et les food trucks vous accueillent pour des moments gourmands et "
+"conviviaux."
+msgstr ""
+"the bar and food trucks welcome you for delicious and friendly moments."
+
+#: .\core\templates\core\services.html:74
+msgid "Image Bar"
+msgstr "Bar Image"
+
+#: .\core\templates\core\services.html:75
+msgid "Bar ouvert de"
+msgstr "Bar open from"
+
+#: .\core\templates\core\services.html:77
+msgid ""
+"Un lieu idéal pour boire un verre, savourer une glace et profiter de "
+"l’ambiance du camping."
+msgstr ""
+"An ideal place to enjoy a drink, savor an ice cream, and soak up the "
+"campsite atmosphere."
+
+#: .\core\templates\core\services.html:80
+msgid "Image Camion Food Truck"
+msgstr "Food Truck Image"
+
+#: .\core\templates\core\services.html:81
+msgid "Food trucks en soirée pour tous les goûts :"
+msgstr "Evening food trucks for every taste : "
+
+#: .\core\templates\core\services.html:84
+msgid "Burger"
+msgstr "Burger"
+
+#: .\core\templates\core\services.html:84
+msgid "tous les soirs sauf le"
+msgstr "every evening except on"
+
+#: .\core\templates\core\services.html:84
+msgid "de"
+msgstr "on"
+
+#: .\core\templates\core\services.html:85
+msgid "Pizza"
+msgstr "Pizza"
+
+#: .\core\templates\core\services.html:85
+msgid "uniquement le"
+msgstr "only on"
+
+#: .\core\templates\core\services.html:85
+msgid "soir"
+msgstr "evening"
+
+#: .\core\templates\core\services.html:85
+msgid "mêmes horaires."
+msgstr "the same hours."
+
+#: .\core\templates\core\services.html:97
+msgid "Laverie"
+msgstr "Laundry Room"
+
+#: .\core\templates\core\services.html:98
+msgid "Image Machine à laver"
+msgstr "Washing machine Image"
+
+#: .\core\templates\core\services.html:100
+msgid "Du linge à faire ?"
+msgstr "Need to do laundry ?"
+
+#: .\core\templates\core\services.html:101
+msgid "Pas de panique, même en vacances, on a pensé à tout :"
+msgstr "No worries, even on holiday, we’ve got it all covered :"
+
+#: .\core\templates\core\services.html:103
+msgid "Une machine à laver pour"
+msgstr "Washing machine for"
+
+#: .\core\templates\core\services.html:104
+msgid "Un sèche-linge pour"
+msgstr "Dryer for"
+
+#: .\core\templates\core\services.html:104
+msgid "les 20 minutes"
+msgstr "20 minutes"
+
+#: .\core\templates\core\services.html:105
+msgid ""
+"Des lavabos pour les adeptes du lavage à la main (ou pour les chaussettes en "
+"mission spéciale)"
+msgstr "Basins for handwashing fans (or socks on a special mission)"
+
+#: .\core\templates\core\services.html:107
+msgid "Les jetons sont en vente à l'accueil."
+msgstr "Tokens are available at the reception."
+
+#: .\core\templates\core\services.html:108
+msgid "Pensez à votre lessive... ou passez à l'épicerie, on en vend aussi !"
+msgstr "Don't forget your detergent… or grab some at the grocery store !"
+
+#: .\core\templates\core\services.html:118
+msgid "Animaux bienvenus"
+msgstr "Pets Welcome"
+
+#: .\core\templates\core\services.html:119
+msgid "Image Chien et Chat"
+msgstr "Dog and Cat Image"
+
+#: .\core\templates\core\services.html:121
+msgid "sauf catégories 1 & 2, désolés les toutous costauds"
+msgstr "except categories 1 & 2 – sorry, strong doggies"
+
+#: .\core\templates\core\services.html:122
+msgid "Image d'un chien musclé"
+msgstr "Muscular Dog Image"
+
+#: .\core\templates\core\services.html:124
+msgid "Carnet de vaccination :"
+msgstr "Vaccination record :"
+
+#: .\core\templates\core\services.html:125
+msgid ""
+"Il doit être présenté à l’arrivée et à jour — une simple formalité pour "
+"garantir le bien-être de tous nos compagnons à quatre pattes !"
+msgstr ""
+"It must be presented upon arrival and up to date — a simple formality to "
+"ensure the well-being of all our four-legged friends !"
+
+#: .\core\templates\core\services.html:127
+msgid "La laisse ?"
+msgstr "Leash?"
+
+#: .\core\templates\core\services.html:127
+msgid ""
+"Oui, même pour une petite balade, dans le camping ou juste devant la tente !"
+msgstr ""
+"Yes, even for a short walk, inside the campsite or just in front of your "
+"tent !"
+
+#: .\core\templates\core\services.html:128
+msgid "Un petit besoin ?"
+msgstr "A little potty break?"
+
+#: .\core\templates\core\services.html:128
+msgid "On ramasse, c'est plus sympa pour tout le monde."
+msgstr "Let’s clean up — it’s nicer for everyone."
+
+#: .\core\templates\core\services.html:130
+msgid "Panneau interdit"
+msgstr "No Entry Sign"
+
+#: .\core\templates\core\services.html:131
+msgid "Les sanitaires"
+msgstr "The toilets, "
+
+#: .\core\templates\core\services.html:131
+msgid "c'est réservé aux humains !"
+msgstr "they’re for humans only !"
+
+#: .\core\templates\core\services.html:142
+msgid "Wi-Fi gratuit"
+msgstr "Free Wi-Fi"
+
+#: .\core\templates\core\services.html:143
+msgid "Logo Wi-Fi"
+msgstr "Wi-Fi Logo"
+
+#: .\core\templates\core\services.html:145
+msgid "Besoin de rester connecté ?"
+msgstr "Need to stay connected ?"
+
+#: .\core\templates\core\services.html:146
+msgid "Le wifi est gratuit sur le camping !"
+msgstr "Wi-Fi is free throughout the campsite !"
+
+#: .\core\templates\core\services.html:147
+msgid "(Pensez à passer à l'accueil pour les conditions d'accès.)"
+msgstr "(Please visit reception for access details.)"
+
+#: .\core\templates\core\services.html:158
+msgid "Paiements sécurisés"
+msgstr "Secure Payments"
+
+#: .\core\templates\core\services.html:159
+msgid "Logo Terminal Paiements"
+msgstr "Payment Terminal Logo"
+
+#: .\core\templates\core\services.html:161
+msgid ""
+"Pour régler votre séjour, plusieurs options s'offrent à vous à l'arrivée : "
+msgstr ""
+"To pay for your stay, you have several options available upon arrival :"
+
+#: .\core\templates\core\services.html:163
+msgid "American Express"
+msgstr "American Express"
+
+#: .\core\templates\core\services.html:164
+msgid "Espèces"
+msgstr "Cash"
+
+#: .\core\templates\core\services.html:165
+msgid "Maestro"
+msgstr "Maestro"
+
+#: .\core\templates\core\services.html:166
+msgid "Mastercard"
+msgstr "Mastercard"
+
+#: .\core\templates\core\services.html:167
+msgid "Visa"
+msgstr "Visa"
+
+#: .\core\templates\core\services.html:168
+msgid "Chèques vacances (ANCV)"
+msgstr "Holiday vouchers (ANCV)"
+
+#: .\core\templates\core\services.html:169
+msgid "Virement"
+msgstr "Bank transfer"
+
+#: .\core\templates\core\services.html:171
+msgid "La carte bancaire est acceptée à partir de 8€."
+msgstr "Card payments accepted from €8."
+
+#: .\core\templates\core\services.html:172
+msgid ""
+"Petit rappel : par mesure de sécurité, nous ne prenons plus les chèques."
+msgstr "Important: Due to past issues, we no longer accept cheques."
+
+#: .\core\views.py:72
+msgid "Adulte supplémentaire"
+msgstr "Extra Adult"
+
+#: .\core\views.py:73
+msgid "Enfant +8 ans"
+msgstr "Child +8 years"
+
+#: .\core\views.py:74
+msgid "Enfant -8 ans"
+msgstr "Child -8 years"
+
+#: .\core\views.py:75
+msgid "Animal"
+msgstr "Pet"
+
+#: .\core\views.py:76
+msgid "Véhicule supplémentaire"
+msgstr "Extra Vehicle"
+
+#: .\core\views.py:77
+msgid "Tente supplémentaire"
+msgstr "Extra Tent"
+
+#: .\core\views.py:78
+msgid ""
+"Caution - Prêt de matériel (adaptateur, fer à repasser, sèche-cheveux...)"
+msgstr "Deposit - Equipment Loan (adapter, iron, hair dryer...)"
+
+#: .\core\views.py:92
+msgid "(sans piscine)"
+msgstr "(without pool)"
+
+#: .\core\views.py:97
+msgid "(avec piscine)"
+msgstr "(with pool)"
+
+#: .\maineblanc_project\settings.py:172
+msgid "French"
+msgstr "French"
+
+#: .\maineblanc_project\settings.py:173
+msgid "English"
+msgstr "English"
+
+#: .\maineblanc_project\settings.py:174
+msgid "Spanish"
+msgstr "Spanish"
+
+#: .\maineblanc_project\settings.py:175
+msgid "German"
+msgstr "German"
+
+#: .\maineblanc_project\settings.py:176
+msgid "Nederlands"
+msgstr "Dutch"
+
+#: .\reservations\forms.py:47
+msgid "Adresse email"
+msgstr "Email Address"
+
+#: .\reservations\forms.py:51
+msgid "Message"
+msgstr "Message"
+
+#: .\reservations\forms.py:79
+msgid "Choisissez un type"
+msgstr "Choose a type"
+
+#: .\reservations\forms.py:81
+msgid "Voiture tente"
+msgstr "Car Tent"
+
+#: .\reservations\forms.py:83
+msgid "Fourgon aménagé"
+msgstr "Converted Van"
+
+#: .\reservations\forms.py:89
+#: .\reservations\templates\reservations\reservation_request.html:120
+msgid "Type d'hébergement"
+msgstr "Accommodation Type"
+
+#: .\reservations\forms.py:131
+msgid "+8 ans"
+msgstr "+8 Years"
+
+#: .\reservations\forms.py:140
+msgid "-8 ans"
+msgstr "-8 Years"
+
+#: .\reservations\forms.py:212
+msgid ""
+"La longueur et la largeur de la tente sont obligatoires pour le type "
+"d'hébergement sélectionné."
+msgstr ""
+"The length and width of the tent are required for the selected accommodation "
+"type."
+
+#: .\reservations\forms.py:216
+msgid ""
+"La longueur du véhicule est obligatoire pour le type d'hébergement "
+"sélectionné."
+msgstr ""
+"The length of the vehicle is required for the selected accommodation type."
+
+#: .\reservations\forms.py:219
+msgid ""
+"La longueur du câble électrique est obligatoire si l'électricité est "
+"demandée."
+msgstr ""
+"The length of the electrical cable is required if electricity is requested."
+
+#: .\reservations\templates\reservations\email_admin.html:6
+#: .\reservations\templates\reservations\email_admin.html:82
+#: .\reservations\views.py:78
+msgid "Nouvelle demande de réservation"
+msgstr "New reservation request"
+
+#: .\reservations\templates\reservations\email_admin.html:83
+msgid "Une nouvelle demande de réservation a été effectuée le"
+msgstr "A new reservation request has been made on"
+
+#: .\reservations\templates\reservations\email_admin.html:104
+msgid "Dimensions du véhicule"
+msgstr "Vehicle dimensions"
+
+#: .\reservations\templates\reservations\email_admin.html:112
+msgid "Longueur du câble électrique"
+msgstr "Length of electrical cable"
+
+#: .\reservations\templates\reservations\email_admin.html:125
+msgid "Message du client"
+msgstr "Client message"
+
+#: .\reservations\templates\reservations\reservation_request.html:9
+msgid "Contact | Camping Le Maine Blanc"
+msgstr "Contact | Camping Le Maine Blanc"
+
+#: .\reservations\templates\reservations\reservation_request.html:15
+msgid "Nous contacter"
+msgstr "Contact Us"
+
+#: .\reservations\templates\reservations\reservation_request.html:20
+msgid "Vous avez une question ou souhaitez réserver ? Appelez-nous au"
+msgstr "Do you have a question or would like to make a reservation? Call us at"
+
+#: .\reservations\templates\reservations\reservation_request.html:20
+msgid ""
+"ou complétez simplement le formulaire ci-dessous, nous vous répondrons "
+"rapidement !"
+msgstr "or simply fill out the form below, we will get back to you quickly!"
+
+#: .\reservations\templates\reservations\reservation_request.html:103
+msgid "Détails de la réservation"
+msgstr "Reservation Details"
+
+#: .\reservations\templates\reservations\reservation_request.html:143
+#: .\reservations\templates\reservations\reservation_request.html:152
+#: .\reservations\templates\reservations\reservation_request.html:161
+#: .\reservations\templates\reservations\reservation_request.html:170
+msgid "Sélectionner"
+msgstr "Select"
+
+#: .\reservations\templates\reservations\reservation_request.html:204
+msgid "Localisation du camping"
+msgstr "Campsite Location"
+
+#: .\reservations\templates\reservations\reservation_request.html:221
+msgid "Envoyer la demande"
+msgstr "Send Request"
+
+#: .\reservations\views.py:93
+msgid ""
+"Votre demande de réservation a été envoyée avec succès. Nous reviendrons "
+"vers vous très rapidement."
+msgstr ""
+"Your reservation request has been sent successfully. We will get back to you "
+"very quickly."
